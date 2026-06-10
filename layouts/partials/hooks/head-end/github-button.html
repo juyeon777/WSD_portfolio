@@ -169,6 +169,14 @@ html.dark .tech-badges .cat { color: #d9bf72; }
 .tech-badge { display: inline-block; padding: 3px 11px; margin: 3px 6px 3px 0; border-radius: 9999px; background: #fbf3d8; color: #8c6a00; font-size: .83em; font-weight: 500; border: 1px solid #f0e2b6; line-height: 1.7; }
 html.dark .tech-badge { background: rgba(191, 143, 0, .14); color: #e6c970; border-color: rgba(200, 165, 80, .22); }
 
+/* ---- Project detail: highlight callout + list polish ---- */
+.proj-highlight { background: linear-gradient(135deg, #fdf8e9, #fbf3dd); border-left: 4px solid #bf8f00; border-radius: 0 12px 12px 0; padding: .85rem 1.1rem; margin: 1.1rem 0 1.5rem; font-size: .93rem; line-height: 1.65; }
+.proj-highlight strong { color: #8c6a00; }
+html.dark .proj-highlight { background: rgba(191, 143, 0, .1); }
+html.dark .proj-highlight strong { color: #e6c970; }
+.prose ul > li::marker { color: #bf8f00; }
+html.dark .prose ul > li::marker { color: #e0bd5a; }
+
 /* ---- Home first impression: social icon hover + résumé button + avatar ---- */
 #profile .network-icon a {
   display: inline-block;
