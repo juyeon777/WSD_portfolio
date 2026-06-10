@@ -37,18 +37,18 @@ sections:
         <p class="ws-lead">높은 목표를 잡되, 결과물을 끝까지 다듬어 증명합니다. 명확한 평가 기준을 먼저 세우고 그에 맞춰 판단하며, 결과물의 문제를 구체적으로 짚어 반복 개선으로 완성도를 끌어올립니다. 기획에 그치지 않고 버전 관리·구조화된 작업 환경까지 세팅해 실제로 실행하는 편입니다.</p>
         <div class="ws-label">강점</div>
         <div class="ws-grid">
-        <div class="ws-card">평가 기준을 분해해 의사결정 기준으로 삼습니다<span class="ws-card-note">막연한 인상이 아니라 기준으로 판단</span></div>
-        <div class="ws-card">결과물의 문제를 구체적인 행동 단위로 짚어 반복 개선합니다</div>
-        <div class="ws-card">하고 싶은 것과 기한 내 완성 가능한 것을 구분해 현실적으로 판단합니다</div>
-        <div class="ws-card">한정된 시간을 패턴·근거로 우선순위화해 배분합니다</div>
-        <div class="ws-card">기획에서 끝내지 않고 Git·모듈화 등 작업 환경 구축까지 실행합니다</div>
-        <div class="ws-card">구체적 목표를 세우고 거기에 맞춰 준비를 설계합니다</div>
+        <div class="ws-card">평가 기준 분해 → 의사결정 기준 채택</div>
+        <div class="ws-card">문제를 행동 단위로 짚어 반복 개선</div>
+        <div class="ws-card">하고 싶은 것 vs 기한 내 가능한 것 구분</div>
+        <div class="ws-card">패턴·근거로 우선순위화해 시간 배분</div>
+        <div class="ws-card">기획에 그치지 않고 작업 환경(Git·모듈화)까지 구축</div>
+        <div class="ws-card">구체적 목표 → 맞춤 준비 설계</div>
         </div>
         <div class="ws-label">성장 포인트</div>
         <ul class="ws-growth">
-        <li>완성도 기준이 높아 초기 방향 탐색이 길어질 때가 있어, '결정 마감선'을 정해두고 그 안에서 선택합니다</li>
-        <li>재작업을 통한 품질 향상을 선호해, 협업에서는 '어느 선이 충분한가'를 먼저 합의하려 합니다</li>
-        <li>피드백이 간결해질 때가 있어, 결론과 함께 배경 맥락을 덧붙이려 의식합니다</li>
+        <li>완성도 기준이 높아 초기 탐색이 길어질 때 → '결정 마감선'을 정해 선택</li>
+        <li>재작업을 선호 → 협업 시 '충분한 선'을 먼저 합의</li>
+        <li>피드백이 간결해질 때 → 결론에 배경 맥락을 덧붙임</li>
         </ul>
     design:
       columns: '1'
