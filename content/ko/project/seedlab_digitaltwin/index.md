@@ -67,4 +67,4 @@ html.dark .tech-badge{background:#1e293b;color:#cbd5e1;border-color:#334155;}
 
 ## 링크
 
-- [GitHub 저장소](https://github.com/juyeon777/SeedLabDigitalTwin__System)
+- [GitHub 저장소](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)

@@ -67,4 +67,4 @@ html.dark .tech-badge{background:#1e293b;color:#cbd5e1;border-color:#334155;}
 
 ## Links
 
-- [GitHub Repository](https://github.com/juyeon777/SeedLabDigitalTwin__System)
+- [GitHub Repository](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)

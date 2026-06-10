@@ -2,55 +2,62 @@
 
 <style>
 /* ============================================================
-   UI POLISH (cream / teal) — 2026
-   teal accent: #2f4f4f  |  light teal: #6ea3a3
+   UI POLISH (cream / teal) — teal #2f4f4f, light teal #6ea3a3
    ============================================================ */
 
-/* ---- Project list -> responsive card grid ---- */
-div:has(> div.container > a.mb-5) {
-  display: grid;
+/* ---- Project list: each project = its own card, laid out in a grid ---- */
+/* the single wrapper holds all project <a> cards; turn it into a grid and
+   strip its own box styling so it is not one big box */
+.container:has(> a.mb-5) {
+  max-width: 1100px !important;
+  display: grid !important;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
-  width: 100%;
-  max-width: 1080px;
-  margin: 1rem auto 0;
-  padding: 0 1rem;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+  padding: .5rem 1rem 1rem;
 }
-div.container:has(> a.mb-5) {
-  max-width: none !important;
+/* each project link → an individual card */
+.container:has(> a.mb-5) > a {
+  display: block;
   margin: 0 !important;
-  border-radius: 16px;
+  height: 100%;
+  background: #ffffff;
+  border: 1px solid #ececec;
   border-top: 3px solid #2f4f4f;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .06);
+  overflow: hidden;
   transition: transform .22s ease, box-shadow .22s ease;
 }
-div.container:has(> a.mb-5):hover {
+.container:has(> a.mb-5) > a:hover {
   transform: translateY(-5px);
   box-shadow: 0 14px 30px rgba(47, 79, 79, .18);
 }
-html.dark div.container:has(> a.mb-5) { border-top-color: #6ea3a3; }
-a.mb-5 { margin-bottom: 0 !important; height: 100%; }
-a.mb-5 .p-8 { padding: 1.5rem 1.6rem; }
-a.mb-5 .uppercase {
+html.dark .container:has(> a.mb-5) > a {
+  background: rgb(38, 63, 63);
+  border-color: rgba(110, 163, 163, .22);
+  border-top-color: #6ea3a3;
+}
+.container:has(> a.mb-5) .p-8 { padding: 1.4rem 1.5rem; }
+.container:has(> a.mb-5) .uppercase {
   color: #2f4f4f !important;
-  letter-spacing: .03em;
+  letter-spacing: .02em;
   font-size: 1.02rem;
 }
-html.dark a.mb-5 .uppercase { color: #a7cccc !important; }
+html.dark .container:has(> a.mb-5) .uppercase { color: #a7cccc !important; }
 
-/* ---- Link buttons (GitHub / live site) inside project content ---- */
-.prose ul:has(> li > a[href*="github.com"]),
-.prose ul:has(> li > a[href*=".github.io"]) {
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: .55rem;
-  margin-top: .5rem;
-}
+/* ---- Link buttons (GitHub / live site) inside project detail content ---- */
+/* style ONLY the link list-items as buttons; do NOT flex the whole <ul>
+   (older projects keep the link in the same list as the text bullets) */
 .prose li:has(> a[href*="github.com"]),
 .prose li:has(> a[href*=".github.io"]) {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+  margin: .3rem .5rem .3rem 0;
 }
 .prose a[href*="github.com"],
 .prose a[href*=".github.io"] {
@@ -98,7 +105,7 @@ html.dark .prose a[href*=".github.io"]:hover { background: #4f7d7d; }
 }
 html.dark .prose h2 { border-left-color: #6ea3a3; }
 
-/* ---- Home first impression: social icon hover + resume button ---- */
+/* ---- Home first impression: social icon hover + résumé button ---- */
 #profile .network-icon a {
   display: inline-block;
   transition: transform .15s ease, color .15s ease;
