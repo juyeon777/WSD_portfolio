@@ -1,36 +1,51 @@
-# [Hugo Résumé Theme](https://github.com/HugoBlox/theme-resume)
+# 박주연 포트폴리오 · Ju Yeon Portfolio
 
-[![Screenshot](./.github/preview.png)](https://hugoblox.com/templates/)
+프로젝트 · 이력 · 자격증 · 연락처를 한 곳에 정리한 개인 포트폴리오 웹사이트입니다.
 
-The Hugo **Résumé Template** empowers you to easily create your job-winning online résumé, showcase your expertise, and share your social profiles to grow your audience.
+🔗 **사이트 바로가기:** [https://juyeon777.github.io/WSD_portfolio/](https://juyeon777.github.io/WSD_portfolio/)
+&nbsp;|&nbsp; 🇬🇧 [English](https://juyeon777.github.io/WSD_portfolio/en/)
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, block-based website builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+[![홈 화면](./.github/preview.png)](https://juyeon777.github.io/WSD_portfolio/)
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+<br>
 
-[Check out the latest demo](https://hugo-resume-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+## 📋 구성
 
-The integrated [**Hugo Blox**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+| 메뉴 | 내용 |
+|------|------|
+| **홈** | 자기소개 · 프로필 · 이력서(PDF) 다운로드 |
+| **이력서** | 경력 / 학위 / 기술 / 언어 |
+| **자격증** | 취득·준비 중인 자격증 |
+| **프로젝트** | 진행한 프로젝트 (카드형 목록 + 상세 페이지, GitHub·배포 링크) |
+| **연락처** | 연락 정보 · 지도 · 연락 폼 |
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+대표 프로젝트로는 **종자 증식실 디지털 트윈 시스템**(캡스톤), **시내버스 승객 예측**(KCI 논문 공동저자), **YeonHire 채용 플랫폼 백엔드**, **YeonPlay 프론트엔드** 등이 있습니다.
 
-## We ask you, humbly, to support this open source movement
+<br>
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+## 🛠 기술 스택
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+- **Hugo** (Extended) + **Hugo Blox Builder** — 블록 기반 정적 사이트 빌더
+- **Tailwind CSS** + 커스텀 SCSS / JavaScript
+- **다국어** 지원 (한국어 / English)
+- **연락 폼** — Formspree 연동
+- **GitHub Actions** 자동 빌드 → **GitHub Pages** 배포
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+<br>
 
-## Demo credits
+## 🚀 로컬 실행
 
-- [Unsplash](https://unsplash.com/) images
+```bash
+# Hugo Extended 0.126.3 이상 필요
+hugo server
+```
+
+## 🌐 배포
+
+`main` 브랜치에 push하면 GitHub Actions(`.github/workflows/publish.yaml`)가 자동으로 빌드하여 GitHub Pages에 배포합니다.
+
+<br>
+
+---
+
+<sub>© 2026 박주연 (Park Ju Yeon) · 전북대학교 IT지능정보공학과</sub>
