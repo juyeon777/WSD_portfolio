@@ -12,6 +12,8 @@ summary: "A web digital-twin monitoring a seed propagation room via IoT sensors 
 
 <!--more-->
 
+![Three.js-based 3D digital twin dashboard (seedlab.headit.kr)](dashboard.png)
+
 ## Key Features (whole project)
 
 - **Real-time environment monitoring:** real-time collection and display of 6 sensor types — air temp/humidity, soil temp/humidity, solar radiation, CO₂
