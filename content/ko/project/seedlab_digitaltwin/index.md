@@ -6,6 +6,8 @@ reading_time: false
 summary: "IoT 센서로 종자 증식실 환경을 실시간 수집·시각화하는 웹 디지털 트윈 (캡스톤·5인 팀, IoT 파트 담당)"
 ---
 
+- [GitHub 저장소](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)
+
 - **진행 기간:** 2026 (전북대학교 캡스톤 디자인, 5인 팀 프로젝트)
 - **담당 파트:** IoT · 실시간 모니터링
 - 종자 증식실의 생육 환경을 IoT 센서로 실시간 수집·시각화하고 원격 제어하는 웹 디지털 트윈 시스템입니다.
@@ -65,7 +67,3 @@ html.dark .tech-badge{background:#1e293b;color:#cbd5e1;border-color:#334155;}
 <span class="cat">Infra</span>
 <span class="tech-badge">Docker Compose</span><span class="tech-badge">Azure VM</span><span class="tech-badge">Git</span>
 </div>
-
-## 링크
-
-- [GitHub 저장소](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)
