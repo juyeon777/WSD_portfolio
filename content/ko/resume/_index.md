@@ -58,11 +58,8 @@ sections:
             <span class="resume-proj-date">2026.03–06</span>
           </div>
           <p class="resume-proj-meta">캡스톤 · 5인 팀 (IoT 파트 담당)</p>
-          <ul>
-            <li>(주)헤드아이티 산학협력으로 실증 농가의 <strong>실기기·실데이터</strong>를 활용한 IoT 디지털 트윈</li>
-            <li>「아두이노 → 라즈베리파이 → MQTT → RabbitMQ → 백엔드 → TimescaleDB」 end-to-end 파이프라인 설계·검증, 6종 센서 실시간 수집</li>
-            <li>핫스팟 통신 전환으로 위치 제약 제거, 데이터 신선도 기반 이상 감지 구현 → Docker · Azure VM 배포</li>
-          </ul>
+          <p class="resume-proj-line">아두이노→라즈베리파이→MQTT→RabbitMQ→TimescaleDB end-to-end IoT 파이프라인 설계·검증과 6종 센서 실시간 수집·배포를 담당했습니다.</p>
+          <a class="resume-proj-btn" href="/WSD_portfolio/project/seedlab_digitaltwin/">자세히 보기 →</a>
         </div>
         <div class="resume-proj">
           <div class="resume-proj-head">
@@ -70,22 +67,17 @@ sections:
             <span class="resume-proj-date">2024.02–2025.08</span>
           </div>
           <p class="resume-proj-meta">KCI 논문 게재 (제2저자)</p>
-          <ul>
-            <li>교통카드 빅데이터·재탑승 정보로 <strong>하차 데이터 없이</strong> 승객 수요 예측 (RF·XGBoost·LightGBM 비교 → LightGBM 최적)</li>
-            <li>165번 노선 1개월 차내 재차인원 데이터 수집, 산학협력 회의 참여, 선행연구 자료 조사</li>
-            <li>한국컴퓨터정보학회논문지(JKSCI) Vol.30 No.8 (2025.08) 게재</li>
-          </ul>
+          <p class="resume-proj-line">교통카드 빅데이터로 하차 데이터 없이 승객 수요를 예측한 연구로, 데이터 수집·선행연구 조사를 맡았습니다. (LightGBM 최적 · KCI 등재)</p>
+          <a class="resume-proj-btn" href="/WSD_portfolio/project/project2_lab/">자세히 보기 →</a>
         </div>
         <div class="resume-proj">
           <div class="resume-proj-head">
-            <span class="resume-proj-name">YeonHire — 채용 공고 플랫폼 백엔드</span>
+            <span class="resume-proj-name">자동차 시스템 — 소프트웨어공학 팀 프로젝트</span>
             <span class="resume-proj-date">2024.12</span>
           </div>
-          <p class="resume-proj-meta">개인 프로젝트</p>
-          <ul>
-            <li>Flask REST API로 공고 크롤링 · JWT 인증 · 지원/즐겨찾기 구현, MySQL 스키마 설계</li>
-            <li>Swagger로 API 문서화하여 협업 가능한 형태로 정비</li>
-          </ul>
+          <p class="resume-proj-meta">소프트웨어공학 · 팀 프로젝트</p>
+          <p class="resume-proj-line">SRS→TDD→형상관리→코드 인스펙션 전 과정을 절차대로 진행한 팀 프로젝트로, 본인은 요구사항 명세서(SRS)·문서화를 담당했습니다.</p>
+          <a class="resume-proj-btn" href="/WSD_portfolio/project/sw_engineering_car/">자세히 보기 →</a>
         </div>
     design:
       columns: '1'

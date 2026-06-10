@@ -58,11 +58,8 @@ sections:
             <span class="resume-proj-date">2026.03–06</span>
           </div>
           <p class="resume-proj-meta">Capstone · 5-person team (IoT part)</p>
-          <ul>
-            <li>IoT digital twin using <strong>real devices and real data</strong> from a demonstration farm, via industry collaboration with Head-IT Inc.</li>
-            <li>Designed and validated an end-to-end pipeline "Arduino → Raspberry Pi → MQTT → RabbitMQ → backend → TimescaleDB", collecting 6 sensor types in real time</li>
-            <li>Removed location constraints by switching to hotspot communication, implemented freshness-based anomaly detection → deployed on Docker · Azure VM</li>
-          </ul>
+          <p class="resume-proj-line">Designed and validated the end-to-end IoT pipeline (Arduino→Raspberry Pi→MQTT→RabbitMQ→TimescaleDB) and handled real-time collection of 6 sensors and deployment.</p>
+          <a class="resume-proj-btn" href="/WSD_portfolio/en/project/seedlab_digitaltwin/">Read more →</a>
         </div>
         <div class="resume-proj">
           <div class="resume-proj-head">
@@ -70,22 +67,17 @@ sections:
             <span class="resume-proj-date">2024.02–2025.08</span>
           </div>
           <p class="resume-proj-meta">KCI paper (2nd author)</p>
-          <ul>
-            <li>Predicted passenger demand <strong>without alighting data</strong> from transit-card big data and re-boarding info (RF·XGBoost·LightGBM compared → LightGBM optimal)</li>
-            <li>Collected one month of on-board re-boarding data for route 165, joined collaboration meetings, reviewed prior research</li>
-            <li>Published in the Journal of KSCI (JKSCI) Vol.30 No.8 (2025.08)</li>
-          </ul>
+          <p class="resume-proj-line">Research predicting passenger demand without alighting data from transit-card big data; I handled data collection and prior-research review. (LightGBM optimal · KCI-indexed)</p>
+          <a class="resume-proj-btn" href="/WSD_portfolio/en/project/project2_lab/">Read more →</a>
         </div>
         <div class="resume-proj">
           <div class="resume-proj-head">
-            <span class="resume-proj-name">YeonHire — Job-Posting Platform Backend</span>
+            <span class="resume-proj-name">Car System — Software Engineering Team Project</span>
             <span class="resume-proj-date">2024.12</span>
           </div>
-          <p class="resume-proj-meta">Personal project</p>
-          <ul>
-            <li>Built a Flask REST API with job-posting crawling, JWT auth and apply/bookmark features; designed the MySQL schema</li>
-            <li>Documented the API with Swagger for a collaboration-ready form</li>
-          </ul>
+          <p class="resume-proj-meta">Software Engineering · team project</p>
+          <p class="resume-proj-line">A team project following the full SE process (SRS→TDD→version control→code inspection); I owned the SRS and documentation.</p>
+          <a class="resume-proj-btn" href="/WSD_portfolio/en/project/sw_engineering_car/">Read more →</a>
         </div>
     design:
       columns: '1'
