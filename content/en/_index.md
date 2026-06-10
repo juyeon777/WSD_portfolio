@@ -60,11 +60,6 @@ sections:
         <span class="ws-chip">Prioritize & allocate time by patterns/evidence</span>
         <span class="ws-chip">Beyond planning → build the workflow (Git, modules)</span>
         </div>
-        <div class="ws-label">Growth Points</div>
-        <ul class="ws-growth">
-        <li>A high quality bar can slow early exploration → I set a "decision deadline" and choose within it</li>
-        <li>I prefer rework → I first agree on "what's good enough" in collaboration</li>
-        </ul>
     design:
       columns: '1'
 ---

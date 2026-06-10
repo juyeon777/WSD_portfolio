@@ -60,11 +60,6 @@ sections:
         <span class="ws-chip">패턴·근거로 우선순위화해 시간 배분</span>
         <span class="ws-chip">기획을 넘어 작업 환경(Git·모듈화)까지 구축</span>
         </div>
-        <div class="ws-label">성장 포인트</div>
-        <ul class="ws-growth">
-        <li>완성도 기준이 높아 초기 탐색이 길어질 때 → '결정 마감선'을 정해 선택</li>
-        <li>재작업을 선호 → 협업 시 '충분한 선'을 먼저 합의</li>
-        </ul>
     design:
       columns: '1'
 ---
