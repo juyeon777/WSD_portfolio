@@ -15,22 +15,6 @@ main:
     url: project
     weight: 300
 
-  - name: 기타
-    identifier: etc
-    url: etc
-    weight: 400
-    hasChildren: true
-
-  - name: 즐겨찾기
-    url: etc/favorite
-    parent: etc
-    weight: 420
-
-  - name: 음악
-    url: etc/music
-    parent: etc
-    weight: 440
-
   - name: 연락처
     url: contact
     weight: 700
