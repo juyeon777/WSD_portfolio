@@ -37,20 +37,34 @@ education:
   - area: Department of IT Intelligence and Information Engineering
     institution: Jeonbuk National University
     date_start: 2022-03-01
-    date_end: 2026-02-28
+    date_end: 2027-02-28
 #     summary: |
 #       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
 #     button:
 #       text: 'Read Thesis'
 #       url: 'https://example.com'
 
+  - area: Leave of Absence
+    institution: Jeonbuk National University
+    date_start: 2025-01-01
+    date_end: 2025-12-31
+    summary: |
+       Took a one-year leave of absence in 2025.
+
 work:
+  - position: Director of Planning
+    company_name: The 4th Faculty of Computer and Artificial Intelligence Student Council
+    company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
+    company_logo: ''
+    date_start: 2025-11-01
+    date_end: ''
+
   - position: Undergraduate Research Student
     company_name: Jeonbuk National University Computer Vision Lab.
     company_url: ''
     company_logo: ''
     date_start: 2024-01-31
-    date_end: ''
+    date_end: 2025-12-31
 
   - position: Director of Public Relations
     company_name: The 2nd Faculty of Computer and Artificial Intelligence Student Council

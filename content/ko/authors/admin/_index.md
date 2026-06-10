@@ -37,20 +37,34 @@ education:
   - area: IT지능정보공학과
     institution: 전북대학교
     date_start: 2022-03-01
-    date_end: 2026-02-28
+    date_end: 2027-02-28
     summary: |
        현재 전북대학교 IT지능정보공학과에 재학 중입니다.
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
 
+  - area: 휴학
+    institution: 전북대학교
+    date_start: 2025-01-01
+    date_end: 2025-12-31
+    summary: |
+       2025년 한 해 동안 휴학하였습니다.
+
 work:
+  - position: 기획국장
+    company_name: 제4대 컴퓨터인공지능학부 학생회
+    company_url: 'https://csai.jbnu.ac.kr/csai/index.do'
+    company_logo: ''
+    date_start: 2025-11-01
+    date_end: ''
+
   - position: 학부 연구생
     company_name: 전북대학교 컴퓨터비전 연구실
     company_url: ''
     company_logo: ''
     date_start: 2024-01-31
-    date_end: ''
+    date_end: 2025-12-31
     
   - position: 홍보국장
     company_name: 제2대 컴퓨터인공지능학부 학생회
