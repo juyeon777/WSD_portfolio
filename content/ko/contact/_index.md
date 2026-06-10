@@ -11,11 +11,10 @@ sections:
     id: contact
     content:
       title: 연락 정보
-      text: 아래로 연락주세요!
       email: okk1829@gmail.com
       #phone: +82 010-2542-2638
       address:
-        street: 전북대학교 공과대학 7호관 404호
+        street: 전북대학교 공과대학 7호관
         city: 전주시
         region: 전라북도
         postcode: '54896'
@@ -24,12 +23,14 @@ sections:
       coordinates:
         latitude: "35.846038"
         longitude: "127.134457"
-      office_hours:
-        - "월-금: 09:00 - 17:00"
       directions:
       # Automatically link email and phone or display as text?
       autolink: true
-    #  Email form provider
+      # 연락 폼 (실제 전송은 Formspree 연동 필요)
+      form:
+        provider: formspree
+        formspree:
+          id: YOUR_FORMSPREE_ID
     design:
     # view: text
       columns: 3
