@@ -12,7 +12,8 @@ summary: "A real-time weather dashboard powered by OpenWeatherMap & AWS"
 
 **My Role — Personal Project**
 
-- Planning: Conceived a real-time weather monitoring dashboard
-- Development: Integrated the OpenWeatherMap API, visualized temp/humidity/wind and saved CSV (Python), connected AWS (S3 / CloudWatch)
+- Planning: Designed a real-time weather monitoring dashboard for Seoul and Jeonju
+- Development: Periodically fetched weather data via the OpenWeatherMap API → saved to CSV → visualized temperature/humidity/wind on real-time graphs (Python; modular: fetch/visualize/aws)
+- Infrastructure: Integrated AWS S3 upload & CloudWatch logging; ran on CloudShell to visualize in real time on a CloudWatch dashboard
 
 [GitHub Repository](https://github.com/juyeon777/weather-dashboard)

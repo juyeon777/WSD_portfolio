@@ -12,7 +12,8 @@ summary: "OpenWeatherMap·AWS 기반 실시간 날씨 대시보드"
 
 **담당 역할 — 개인 프로젝트**
 
-- 기획: 실시간 날씨 모니터링 대시보드 구상
-- 개발: OpenWeatherMap API 연동, 온·습도·풍속 시각화·CSV 저장 (Python), AWS(S3·CloudWatch) 연동
+- 기획: 서울·전주 대상 실시간 날씨 모니터링 대시보드 구상
+- 개발: OpenWeatherMap API로 날씨 데이터 주기적 수집 → CSV 저장 → 온도·습도·풍속 실시간 그래프 시각화 (Python, 모듈 분리: fetch/visualize/aws)
+- 인프라: AWS S3 업로드·CloudWatch 로그 연동, CloudShell에서 실행해 CloudWatch 대시보드로 실시간 시각화
 
 [GitHub 저장소](https://github.com/juyeon777/weather-dashboard)
