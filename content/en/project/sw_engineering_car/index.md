@@ -13,4 +13,6 @@ summary: "A car system built with SRS & TDD (software-engineering team project â
 - **Role:** In charge of documentation / reports
 - **Tech Stack:** Python, unittest (TDD), Git/GitHub, Sourcetree, PyCharm
 
+![TDD-based test case design & implementation (Team Project #3 report)](tdd.png)
+
 [GitHub Repository](https://github.com/juyeon777/Software_Engineering_2024)
