@@ -15,12 +15,15 @@ reading_time: false
 
 ### Korean History Proficiency Test (Advanced) Level 3
 - **Issuing Agency**: [National History Compilation Committee]
+- **Test day**: 2024-10-20 (72nd)
+- **Date of acquisition**: 2024-10-31
 - **Description**: A nationally recognized exam certifying understanding of Korean history and historical reasoning.
 
 ---
 
 ### Engineer Information Processing (Written)
 - **Issuing Agency**: [Human Resources Development Service of Korea]
+- **Test day**: 2025-08-28 (2025 3rd round)
 - **Description**: A national technical qualification certifying expertise in software development and information processing. Passed the written exam.
 
 ---
