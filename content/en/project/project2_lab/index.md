@@ -16,6 +16,7 @@ summary: "City-bus passenger prediction research that started from an industry-a
 
 - During the industry-academia phase, visited the partner company (iTech) and joined meetings
 - Collected and updated about one month of in-bus reboarding-count data for route No. 165 from the transportation-card big data system
+- Collected related prior-research papers for writing the paper
 
 [🔗 View on KCI](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003234190)
 [📄 Paper PDF](paper.pdf)

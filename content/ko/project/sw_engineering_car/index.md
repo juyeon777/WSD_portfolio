@@ -6,8 +6,6 @@ reading_time: false
 summary: "SRS·TDD로 구현한 자동차 시스템 (소프트웨어공학 팀 프로젝트, 보고서 담당)"
 ---
 
-![TDD 기반 테스트 케이스 설계·구현 (Team Project #3 구현 보고서)](tdd.png)
-
 - **진행 기간:** 2024-2학기 (소프트웨어공학)
 - 자동차 시스템(엔진·가속/브레이크 페달·기어·문/잠금장치·트렁크)을 모델링하고 Python으로 구현한 팀 프로젝트입니다.
 - 요구사항 명세서(SRS) 작성, TDD(테스트 주도 개발) 기반 구현, 형상관리(Git/GitHub/Sourcetree), 코드 인스펙션(Test Inspection)을 수행했습니다.

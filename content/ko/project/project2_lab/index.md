@@ -16,6 +16,7 @@ summary: "산학협력에서 출발한 시내버스 승객 예측 연구 — KCI
 
 - 산학협력 단계에서 협력기업(아이테크) 방문 및 회의 참여
 - 교통카드 빅데이터 시스템에서 165번 노선의 차내 재차인원 데이터를 약 한 달간 수집·업데이트
+- 논문 작성을 위한 관련 선행 연구(논문) 자료 수집
 
 [🔗 KCI에서 논문 보기](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003234190)
 [📄 논문 PDF 다운로드](paper.pdf)
