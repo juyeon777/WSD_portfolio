@@ -1,1 +1,117 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<style>
+/* ============================================================
+   UI POLISH (cream / teal) — 2026
+   teal accent: #2f4f4f  |  light teal: #6ea3a3
+   ============================================================ */
+
+/* ---- Project list -> responsive card grid ---- */
+div:has(> div.container > a.mb-5) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1080px;
+  margin: 1rem auto 0;
+  padding: 0 1rem;
+}
+div.container:has(> a.mb-5) {
+  max-width: none !important;
+  margin: 0 !important;
+  border-radius: 16px;
+  border-top: 3px solid #2f4f4f;
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+div.container:has(> a.mb-5):hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(47, 79, 79, .18);
+}
+html.dark div.container:has(> a.mb-5) { border-top-color: #6ea3a3; }
+a.mb-5 { margin-bottom: 0 !important; height: 100%; }
+a.mb-5 .p-8 { padding: 1.5rem 1.6rem; }
+a.mb-5 .uppercase {
+  color: #2f4f4f !important;
+  letter-spacing: .03em;
+  font-size: 1.02rem;
+}
+html.dark a.mb-5 .uppercase { color: #a7cccc !important; }
+
+/* ---- Link buttons (GitHub / live site) inside project content ---- */
+.prose ul:has(> li > a[href*="github.com"]),
+.prose ul:has(> li > a[href*=".github.io"]) {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  margin-top: .5rem;
+}
+.prose li:has(> a[href*="github.com"]),
+.prose li:has(> a[href*=".github.io"]) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.prose a[href*="github.com"],
+.prose a[href*=".github.io"] {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  border-radius: 9999px;
+  background: #2f4f4f;
+  color: #fff !important;
+  font-size: .88em;
+  font-weight: 600;
+  text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba(47, 79, 79, .25);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+}
+.prose a[href*="github.com"]:hover,
+.prose a[href*=".github.io"]:hover {
+  transform: translateY(-2px);
+  background: #233e3e;
+  box-shadow: 0 7px 18px rgba(47, 79, 79, .4);
+}
+html.dark .prose a[href*="github.com"],
+html.dark .prose a[href*=".github.io"] { background: #3c6363; }
+html.dark .prose a[href*="github.com"]:hover,
+html.dark .prose a[href*=".github.io"]:hover { background: #4f7d7d; }
+.prose a[href*="github.com"]::before {
+  content: "";
+  width: 1.05em;
+  height: 1.05em;
+  flex: 0 0 auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+.prose a[href*=".github.io"]::before {
+  content: "\1F310";
+  font-size: .95em;
+}
+
+/* ---- Project-detail section headings (teal accent) ---- */
+.prose h2 {
+  border-left: 4px solid #2f4f4f;
+  padding-left: .65rem;
+  margin-top: 2rem;
+  line-height: 1.25;
+}
+html.dark .prose h2 { border-left-color: #6ea3a3; }
+
+/* ---- Home first impression: social icon hover + resume button ---- */
+#profile .network-icon a {
+  display: inline-block;
+  transition: transform .15s ease, color .15s ease;
+}
+#profile .network-icon a:hover {
+  transform: translateY(-3px) scale(1.12);
+  color: #2f4f4f;
+}
+#profile a[href*="resume.pdf"] {
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+#profile a[href*="resume.pdf"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(47, 79, 79, .22);
+}
+</style>
