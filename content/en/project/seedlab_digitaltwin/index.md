@@ -7,6 +7,7 @@ summary: "A web digital-twin monitoring a seed propagation room via IoT sensors 
 ---
 
 - **period:** 2026 (Jeonbuk National University Capstone Design, 5-person team)
+- **Partner company:** HEADIT Co., Ltd.
 - **My part:** IoT · Real-time Monitoring
 - A web-based digital twin system that collects, visualizes, and remotely controls the growing environment of a seed propagation room in real time using IoT sensors.
 
@@ -70,4 +71,5 @@ html.dark .tech-badge{background:#1e293b;color:#cbd5e1;border-color:#334155;}
 <span class="tech-badge">Docker Compose</span><span class="tech-badge">Azure VM</span><span class="tech-badge">Git</span>
 </div>
 
+[Live Site](https://seedlab.headit.kr/)
 [GitHub Repository](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)
