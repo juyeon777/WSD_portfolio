@@ -184,4 +184,43 @@ html.dark #page-bg { background-color: rgb(24, 40, 40); }
 
 /* ---- Hide the theme 'Published with Hugo Blox Builder' credit ---- */
 .powered-by { display: none !important; }
+
+/* ---- Nav: teal hover + current-page (active) indicator ---- */
+.nav-link { position: relative; }
+.nav-link:hover { color: #2f4f4f !important; }
+.nav-link.is-current,
+.nav-link.active,
+.nav-dropdown-link.is-current { color: #2f4f4f !important; font-weight: 700; }
+html.dark .nav-link:hover,
+html.dark .nav-link.is-current,
+html.dark .nav-link.active,
+html.dark .nav-dropdown-link.is-current { color: #a7cccc !important; }
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: .75rem; right: .75rem; bottom: .35rem;
+  height: 2px; border-radius: 2px;
+  background: #2f4f4f;
+  transform: scaleX(0);
+  transition: transform .2s ease;
+}
+.nav-link:hover::after,
+.nav-link.is-current::after,
+.nav-link.active::after { transform: scaleX(1); }
+html.dark .nav-link::after { background: #a7cccc; }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var path = location.pathname.replace(/\/+$/, '');
+    var best = null, bestLen = -1;
+    document.querySelectorAll('a.nav-link, a.nav-dropdown-link').forEach(function (a) {
+      var hp = (a.getAttribute('href') || '').replace(/\/+$/, '');
+      if (!hp) return;
+      if (path === hp || path.indexOf(hp + '/') === 0) {
+        if (hp.length > bestLen) { bestLen = hp.length; best = a; }
+      }
+    });
+    if (best) best.classList.add('is-current');
+  });
+</script>
