@@ -31,12 +31,16 @@ summary: "A web digital-twin monitoring a seed propagation room via IoT sensors 
 - Finalized a mobile hotspot WiFi communication method (removing router dependency) and wrote the setup manual
 - Deployed and integration-tested a Raspberry Pi actuator daemon (MQTT command → GPIO control)
 
+**Management screens (Settings) development**
+
+- Implemented CRUD screens for unit-code / gateway (relay) / sensor management
+
 **Real-time monitoring web features**
 
 - WebSocket-based isolated display of sensor data per propagation room / lot
 - Connection-status determination based on data staleness, with last-communication timestamps per sensor
 - Dashboard status indicators (normal / caution / disconnected) and sudden-change (spike/drop) detection logic
-- Relay & sensor management screens, monitoring UI cleanup (terminology unification, pagination, etc.)
+- Monitoring UI cleanup (terminology unification, alert-history pagination, etc.)
 
 **Data analysis**
 
