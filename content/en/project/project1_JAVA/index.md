@@ -2,7 +2,6 @@
 title: "A tug-of-war game inspired by Netflix's 'Squid Game'"
 tags: ["project"]
 date: 2023-03-01
-weight: 3
 reading_time: false
 ---
 

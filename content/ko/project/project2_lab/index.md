@@ -2,7 +2,6 @@
 title: "시내버스의 효율적인 정차를 위한 탑승객 확인 시스템 개발"
 tags: ["project"]
 date: 2024-02-20
-weight: 1
 reading_time: false
 ---
 

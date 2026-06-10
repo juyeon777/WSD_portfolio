@@ -2,7 +2,6 @@
 title: "Development of a Passenger Verification System for Efficient Stops of City Buses"
 tags: ["project"]
 date: 2024-02-20
-weight: 1
 reading_time: false
 ---
 

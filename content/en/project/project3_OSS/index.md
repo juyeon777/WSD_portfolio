@@ -2,7 +2,6 @@
 title: "Create a personal page introduction (portfolio) website with Github Pages"
 tags: ["project"]
 date: 2024-09-19
-weight: 2
 reading_time: false
 ---
 

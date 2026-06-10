@@ -2,7 +2,7 @@
 <div>
   <h1>{{ .Title }}</h1>
   <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
-    {{ range .Pages.ByWeight }}
+    {{ range .Pages }}
     <div style="border: 1px solid #ddd; padding: 15px; width: 30%; min-width: 250px; text-align: center;">
       <h2>{{ .Title }}</h2>
       <!-- 날짜 -->
