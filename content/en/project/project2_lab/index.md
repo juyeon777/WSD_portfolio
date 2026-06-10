@@ -3,6 +3,7 @@ title: "Development of a Passenger Verification System for Efficient Stops of Ci
 tags: ["project"]
 date: 2024-02-20
 reading_time: false
+summary: "A city-bus passenger detection system using OpenCV & deep learning (industry-academia, ongoing)"
 ---
 
 ![Litmus Project Image](project2.jpg)

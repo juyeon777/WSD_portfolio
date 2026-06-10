@@ -3,6 +3,7 @@ title: "Real-time Weather Dashboard"
 tags: ["project"]
 date: 2024-12-20
 reading_time: false
+summary: "A real-time weather dashboard powered by OpenWeatherMap & AWS"
 ---
 
 - **period:** 2024-12-20 ~ 2024-12-23

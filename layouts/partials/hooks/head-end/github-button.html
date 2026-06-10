@@ -49,6 +49,25 @@ html.dark .container:has(> a.mb-5) > a {
   font-size: 1.02rem;
 }
 html.dark .container:has(> a.mb-5) .uppercase { color: #a7cccc !important; }
+/* card inner layout: full-height column so the date pins to the bottom */
+.container:has(> a.mb-5) > a > div { display: block !important; height: 100%; }
+.container:has(> a.mb-5) .p-8 { display: flex; flex-direction: column; height: 100%; }
+.container:has(> a.mb-5) .uppercase { margin-bottom: .55rem; }
+/* summary: clamp to 3 lines, lighter so the card is easy on the eyes */
+.container:has(> a.mb-5) p.block {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 400 !important;
+  font-size: .9rem;
+  line-height: 1.55;
+  color: #5b5b5b !important;
+  margin-top: 0;
+}
+html.dark .container:has(> a.mb-5) p.block { color: #cdd9d9 !important; }
+/* date pinned to the bottom of the card */
+.container:has(> a.mb-5) p.mt-2 { margin-top: auto !important; padding-top: .9rem; }
 
 /* ---- Link buttons (GitHub / live site) inside project detail content ---- */
 /* style ONLY the link list-items as buttons; do NOT flex the whole <ul>
@@ -121,4 +140,9 @@ html.dark .prose h2 { border-left-color: #6ea3a3; }
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(47, 79, 79, .22);
 }
+#profile .avatar { box-shadow: 0 10px 26px rgba(47, 79, 79, .18); }
+
+/* ---- Sitewide warm tone: cream background on the fixed bg layer ---- */
+#page-bg { background-color: #fbf8ef; }
+html.dark #page-bg { background-color: rgb(24, 40, 40); }
 </style>

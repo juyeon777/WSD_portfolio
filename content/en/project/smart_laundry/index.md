@@ -3,6 +3,7 @@ title: "Smart Laundry Weather Detection System"
 tags: ["project"]
 date: 2026-06-08
 reading_time: false
+summary: "A smart laundry weather-detection system built on Raspberry Pi 5"
 ---
 
 - **period:** 2026-06 ~

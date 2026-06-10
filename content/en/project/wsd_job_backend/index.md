@@ -3,6 +3,7 @@ title: "YeonHire — Job Posting Platform Backend"
 tags: ["project"]
 date: 2024-12-10
 reading_time: false
+summary: "Backend for 'YeonHire', a job-posting platform (Flask & MySQL)"
 ---
 
 - **period:** 2024-12-10 ~ 2024-12-20

@@ -3,6 +3,7 @@ title: "Seed Lab Digital Twin System"
 tags: ["project"]
 date: 2026-03-23
 reading_time: false
+summary: "A web digital-twin monitoring a seed propagation room via IoT sensors (capstone, 5-person team — IoT part)"
 ---
 
 - **period:** 2026 (Jeonbuk National University Capstone Design, 5-person team)

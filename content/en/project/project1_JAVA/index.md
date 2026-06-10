@@ -3,6 +3,7 @@ title: "A tug-of-war game inspired by Netflix's 'Squid Game'"
 tags: ["project"]
 date: 2023-03-01
 reading_time: false
+summary: "A tug-of-war game from 'Squid Game', built in Java (OOP course)"
 ---
 
 ![Litmus Project Image](project1.jpg)

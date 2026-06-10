@@ -3,6 +3,7 @@ title: "Car System — Software Engineering Team Project"
 tags: ["project"]
 date: 2024-12-05
 reading_time: false
+summary: "A car system built with SRS & TDD (software-engineering team project — docs lead)"
 ---
 
 - **period:** 2024 Fall Semester (Software Engineering)

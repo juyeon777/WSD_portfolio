@@ -3,6 +3,7 @@ title: "스마트 빨래 날씨 감지 시스템"
 tags: ["project"]
 date: 2026-06-08
 reading_time: false
+summary: "Raspberry Pi 5로 만든 스마트 빨래 날씨 감지 시스템"
 ---
 
 - **진행 기간:** 2026-06 ~

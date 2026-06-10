@@ -3,6 +3,7 @@ title: "실시간 날씨 대시보드"
 tags: ["project"]
 date: 2024-12-20
 reading_time: false
+summary: "OpenWeatherMap·AWS 기반 실시간 날씨 대시보드"
 ---
 
 - **진행 기간:** 2024-12-20 ~ 2024-12-23

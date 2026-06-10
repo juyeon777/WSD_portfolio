@@ -3,6 +3,7 @@ title: "YeonPlay — 프론트엔드 데모 사이트"
 tags: ["project"]
 date: 2025-11-12
 reading_time: false
+summary: "GPT와 함께 만든 Vue 프론트엔드 데모 사이트 (리뉴얼 포함)"
 ---
 
 - **진행 기간:** 2024-11 ~ 2025-11

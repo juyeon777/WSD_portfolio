@@ -3,6 +3,7 @@ title: "Github Pages로 개인 페이지 소개 (포폴) 웹사이트 만들기"
 tags: ["project"]
 date: 2024-09-19
 reading_time: false
+summary: "OSS 과목에서 만든 개인 포트폴리오 웹사이트 (현재 사이트로 리뉴얼)"
 ---
 
 ![Litmus Project Image](project3.jpg)

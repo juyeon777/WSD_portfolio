@@ -3,6 +3,7 @@ title: "시내버스의 효율적인 정차를 위한 탑승객 확인 시스템
 tags: ["project"]
 date: 2024-02-20
 reading_time: false
+summary: "OpenCV·딥러닝 기반 시내버스 탑승객 확인 시스템 (산학협력, 진행중)"
 ---
 
 ![Litmus Project Image](project2.jpg)

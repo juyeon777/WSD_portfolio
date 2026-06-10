@@ -3,6 +3,7 @@ title: "YeonHire — 채용 공고 플랫폼 백엔드"
 tags: ["project"]
 date: 2024-12-10
 reading_time: false
+summary: "Flask·MySQL로 만든 채용 공고 플랫폼 'YeonHire' 백엔드"
 ---
 
 - **진행 기간:** 2024-12-10 ~ 2024-12-20

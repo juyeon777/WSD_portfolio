@@ -3,6 +3,7 @@ title: "넷플릭스 '오징어 게임' 모티브 줄다리기 게임"
 tags: ["project"]
 date: 2023-03-01
 reading_time: false
+summary: "Java로 구현한 '오징어 게임' 줄다리기 게임 (객체지향 과목)"
 ---
 
 ![Litmus Project Image](project1.jpg)
