@@ -179,7 +179,157 @@ html.dark .prose ul > li::marker { color: #e0bd5a; }
 
 /* ---- Unify section page titles: certificate size (text-4xl), centered ---- */
 h1.lg\:text-6xl,
-h1.text-4xl.tracking-tight { font-size: 2.25rem !important; line-height: 1.2 !important; font-weight: 700 !important; text-align: center !important; }
+h1.text-4xl.tracking-tight,
+h1.page-title { font-size: 2.25rem !important; line-height: 1.2 !important; font-weight: 700 !important; text-align: center !important; }
+
+/* ---- Contact page: page title + subtitle (match other tabs) ---- */
+.page-title { margin: 0 0 .4rem !important; }
+.page-subtitle { text-align: center; color: #74857d; font-size: 1rem; margin: 0 auto 1.4rem; max-width: 560px; }
+html.dark .page-subtitle { color: #bfb188; }
+
+/* ============================================================
+   PROJECT TAB — dedicated research-paper section (above the grid)
+   ============================================================ */
+.paper-section { max-width: 760px; margin: .5rem auto 2.6rem; }
+.paper-eyebrow, .proj-eyebrow {
+  display: flex; align-items: center; gap: .5rem;
+  font-size: 1.15rem; font-weight: 800; color: #bf8f00;
+  margin: 1.6rem 0 1rem; letter-spacing: -.01em;
+}
+.proj-eyebrow { justify-content: center; margin-top: 2.2rem; }
+html.dark .paper-eyebrow, html.dark .proj-eyebrow { color: #ecd07a; }
+.paper-card {
+  display: block; text-decoration: none !important;
+  background: linear-gradient(135deg, #fdf8e9 0%, #fbf3dd 100%);
+  border: 1px solid #f0e2b6; border-left: 5px solid #bf8f00;
+  border-radius: 16px; padding: 1.5rem 1.7rem;
+  box-shadow: 0 3px 14px rgba(150, 110, 0, .10);
+  transition: transform .2s ease, box-shadow .2s ease;
+  color: inherit !important;
+}
+.paper-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(150, 110, 0, .20); }
+html.dark .paper-card { background: rgba(191, 143, 0, .12); border-color: rgba(200, 165, 80, .28); border-left-color: #e0bd5a; }
+.paper-tag {
+  display: inline-block; background: #bf8f00; color: #fff;
+  font-size: .72rem; font-weight: 700; letter-spacing: .02em;
+  padding: .25rem .7rem; border-radius: 9999px; margin-bottom: .7rem;
+}
+html.dark .paper-tag { background: #e0bd5a; color: #2a2310; }
+.paper-title { font-size: 1.18rem !important; font-weight: 800; line-height: 1.4; margin: 0 0 .45rem !important; color: #5a4a13; }
+html.dark .paper-title { color: #f1e6c5; }
+.paper-venue { font-size: .85rem; font-weight: 600; color: #8c6a00; margin: 0 0 .7rem; }
+html.dark .paper-venue { color: #d9bf72; }
+.paper-desc { font-size: .92rem !important; line-height: 1.65; color: #5b5b5b !important; margin: 0 0 1rem !important; }
+html.dark .paper-desc { color: #d8cfb4 !important; }
+.paper-cta { font-size: .9rem; font-weight: 700; color: #bf8f00; }
+html.dark .paper-cta { color: #ecd07a; }
+.paper-card:hover .paper-cta { text-decoration: underline; }
+
+/* ============================================================
+   RESUME TAB — inline résumé content
+   ============================================================ */
+.resume-hero { text-align: center; max-width: 720px; margin: 0 auto; padding: 1rem 1rem 0; }
+.resume-name { font-size: 2.4rem !important; font-weight: 800; margin: 0 0 .5rem !important; color: #1f2937; }
+.resume-name span { font-size: 1.1rem; font-weight: 600; color: #74857d; margin-left: .4rem; }
+html.dark .resume-name { color: #f1e6c5; }
+html.dark .resume-name span { color: #bfb188; }
+.resume-tagline { font-size: 1.05rem; font-weight: 600; color: #bf8f00; margin: 0 0 .8rem; }
+html.dark .resume-tagline { color: #ecd07a; }
+.resume-contact { font-size: .92rem; color: #5b5b5b; margin: 0 0 1.4rem; display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; }
+.resume-contact a { color: #8c6a00; text-decoration: none; font-weight: 600; }
+.resume-contact a:hover { text-decoration: underline; }
+html.dark .resume-contact { color: #d8cfb4; }
+html.dark .resume-contact a { color: #e6c970; }
+.resume-download {
+  display: inline-flex; align-items: center; gap: .45rem;
+  padding: .6rem 1.3rem; border-radius: .6rem;
+  background: #bf8f00; color: #fff !important; font-weight: 600; font-size: .92rem;
+  text-decoration: none !important; box-shadow: 0 4px 12px rgba(150, 110, 0, .22);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.resume-download:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(150, 110, 0, .30); }
+html.dark .resume-download { background: #e0bd5a; color: #2a2310 !important; }
+/* résumé section heading — distinct from prose h2 left-border */
+.resume-h2 {
+  border-left: none !important; padding-left: 0 !important;
+  font-size: 1.35rem !important; font-weight: 800; text-align: center;
+  color: #1f2937; margin: 0 0 1.3rem !important; position: relative;
+}
+.resume-h2::after { content: ""; display: block; width: 48px; height: 3px; border-radius: 3px; background: #bf8f00; margin: .55rem auto 0; }
+html.dark .resume-h2 { color: #f1e6c5; }
+html.dark .resume-h2::after { background: #e0bd5a; }
+.resume-badges { max-width: 760px; margin: 0 auto !important; text-align: center; }
+.resume-badges .cat { text-align: center; }
+.resume-proj {
+  max-width: 720px; margin: 0 auto 1.1rem; background: #fff;
+  border: 1px solid #ececec; border-radius: 14px; padding: 1.2rem 1.4rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .05);
+}
+html.dark .resume-proj { background: rgb(46, 40, 26); border-color: rgba(200, 165, 80, .2); }
+.resume-proj-head { display: flex; justify-content: space-between; align-items: baseline; gap: .8rem; flex-wrap: wrap; }
+.resume-proj-name { font-size: 1.06rem; font-weight: 800; color: #5a4a13; }
+html.dark .resume-proj-name { color: #f1e6c5; }
+.resume-proj-date { font-size: .82rem; font-weight: 600; color: #bf8f00; white-space: nowrap; }
+html.dark .resume-proj-date { color: #ecd07a; }
+.resume-proj-meta { font-size: .85rem; color: #8c6a00; margin: .15rem 0 .6rem; font-weight: 600; }
+html.dark .resume-proj-meta { color: #d9bf72; }
+.resume-proj ul { margin: 0; padding-left: 1.1rem; }
+.resume-proj li { font-size: .9rem; line-height: 1.6; color: #5b5b5b; margin: .2rem 0; }
+html.dark .resume-proj li { color: #d8cfb4; }
+.resume-certs { max-width: 720px; margin: 0 auto; padding-left: 1.1rem; }
+.resume-certs li { font-size: .93rem; line-height: 1.7; color: #4d5a54; }
+html.dark .resume-certs li { color: #cfc4a6; }
+
+/* ============================================================
+   CERTIFICATE TAB — card grid
+   ============================================================ */
+.cert-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.2rem; max-width: 880px; margin: 0 auto 2.4rem;
+}
+.cert-card {
+  position: relative; background: #fff;
+  border: 1px solid #ececec; border-top: 3px solid #bf8f00;
+  border-radius: 16px; padding: 1.4rem 1.4rem 1.2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .06);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.cert-card:hover { transform: translateY(-4px); box-shadow: 0 14px 28px rgba(150, 110, 0, .16); }
+html.dark .cert-card { background: rgb(46, 40, 26); border-color: rgba(200, 165, 80, .2); border-top-color: #e0bd5a; }
+.cert-icon {
+  width: 2.6rem; height: 2.6rem; display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; border-radius: 12px; background: #fbf3d8; margin-bottom: .8rem;
+}
+html.dark .cert-icon { background: rgba(191, 143, 0, .16); }
+.cert-name { font-size: 1.06rem !important; font-weight: 800; line-height: 1.35; margin: 0 0 .3rem !important; color: #5a4a13; }
+html.dark .cert-name { color: #f1e6c5; }
+.cert-tag {
+  display: inline-block; vertical-align: middle; background: #bf8f00; color: #fff;
+  font-size: .66rem; font-weight: 700; padding: .12rem .5rem; border-radius: 9999px; margin-left: .25rem;
+}
+html.dark .cert-tag { background: #e0bd5a; color: #2a2310; }
+.cert-org { font-size: .82rem; font-weight: 600; color: #8c6a00; margin: 0 0 .55rem; }
+html.dark .cert-org { color: #d9bf72; }
+.cert-desc { font-size: .85rem !important; line-height: 1.55; color: #5b5b5b !important; margin: 0 0 .9rem !important; }
+html.dark .cert-desc { color: #d8cfb4 !important; }
+.cert-foot { display: flex; align-items: center; justify-content: space-between; gap: .6rem; flex-wrap: wrap; border-top: 1px dashed #eadFb6; padding-top: .7rem; }
+html.dark .cert-foot { border-top-color: rgba(200, 165, 80, .25); }
+.cert-date { font-size: .78rem; font-weight: 600; color: #9a8a55; }
+html.dark .cert-date { color: #bfb188; }
+.cert-link {
+  font-size: .78rem; font-weight: 700; color: #bf8f00 !important; text-decoration: none !important;
+  padding: .25rem .65rem; border: 1px solid #f0e2b6; border-radius: 9999px; transition: background .15s ease;
+}
+.cert-link:hover { background: #fbf3d8; }
+html.dark .cert-link { color: #ecd07a !important; border-color: rgba(200, 165, 80, .3); }
+.cert-card--pending { border-top-color: #c9b272; background: #fcfaf3; }
+html.dark .cert-card--pending { background: rgb(40, 35, 22); }
+.cert-status {
+  position: absolute; top: 1rem; right: 1rem;
+  font-size: .68rem; font-weight: 700; color: #8c6a00;
+  background: #fbf3d8; padding: .2rem .6rem; border-radius: 9999px;
+}
+html.dark .cert-status { background: rgba(191, 143, 0, .18); color: #e6c970; }
 
 /* ---- Home first impression: social icon hover + résumé button + avatar ---- */
 #profile .network-icon a {

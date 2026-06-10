@@ -4,6 +4,10 @@ tags: ["project"]
 date: 2025-08-19
 reading_time: false
 summary: "City-bus passenger prediction research that started from an industry-academia collaboration — KCI paper (2nd author, data collection)"
+# Excluded from the project grid; detail page still builds (shown in the dedicated Research Paper section)
+_build:
+  render: always
+  list: never
 ---
 
 **Overview —** Research that predicts city-bus passenger demand from transit-card big data without alighting data.

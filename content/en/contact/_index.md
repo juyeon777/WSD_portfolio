@@ -7,6 +7,14 @@ type: landing
 
 # Page sections
 sections:
+  - block: markdown
+    id: contact-title
+    content:
+      text: |
+        <h1 class="page-title text-4xl tracking-tight">Contact</h1>
+        <p class="page-subtitle">Feel free to reach out for questions or collaboration.</p>
+    design:
+      columns: '1'
   - block: contact
     id: contact
     content:
