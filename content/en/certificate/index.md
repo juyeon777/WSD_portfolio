@@ -30,6 +30,7 @@ reading_time: false
 
 ### TOEIC Speaking IM3
 - **Issuing Agency**: [ETS / YBM]
+- **Date of acquisition**: 2024-11-24
 - **Description**: An official English speaking proficiency test. Achieved the IM3 level.
 
 ---
