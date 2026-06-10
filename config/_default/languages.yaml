@@ -6,10 +6,12 @@
 ko:
   languageCode: ko
   contentDir: content/ko
+  title: 박주연 포트폴리오 (Park Ju Yeon)
 
 en:
   languageCode: en-us
   contentDir: content/en
+  title: Park Ju Yeon Portfolio
 
 #en:
 #  languageCode: en-us
