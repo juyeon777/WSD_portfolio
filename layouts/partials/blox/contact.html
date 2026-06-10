@@ -246,7 +246,9 @@
       <textarea name="message" rows="6" required placeholder="{{ cond (eq site.Language.Lang "en") "Message" "메시지" }}"
         class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-3 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-400"></textarea>
       <button type="submit"
-        class="w-full rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 transition-colors">
+        class="w-full rounded-lg font-semibold py-3 transition-colors"
+        style="background-color:#2563eb;color:#ffffff;border:none;cursor:pointer;"
+        onmouseover="this.style.backgroundColor='#1d4ed8'" onmouseout="this.style.backgroundColor='#2563eb'">
         {{ cond (eq site.Language.Lang "en") "Send" "보내기" }}
       </button>
     </form>
