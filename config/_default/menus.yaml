@@ -3,6 +3,10 @@ main:
     url: /
     weight: 10
 
+  - name: resume
+    url: resume
+    weight: 100
+
   - name: certificate
     url: certificate
     weight: 200
