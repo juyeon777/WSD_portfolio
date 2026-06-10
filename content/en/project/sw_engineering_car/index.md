@@ -6,7 +6,7 @@ reading_time: false
 summary: "A car system built with SRS & TDD (software-engineering team project — docs lead)"
 ---
 
-- [GitHub Repository](https://github.com/juyeon777/Software_Engineering_2024)
+[GitHub Repository](https://github.com/juyeon777/Software_Engineering_2024)
 
 - **period:** 2024 Fall Semester (Software Engineering)
 - A team project that modeled and implemented a car system (engine, accelerator/brake pedals, gear, doors/locks, trunk) in Python.

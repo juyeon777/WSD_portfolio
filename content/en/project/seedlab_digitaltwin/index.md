@@ -6,7 +6,7 @@ reading_time: false
 summary: "A web digital-twin monitoring a seed propagation room via IoT sensors (capstone, 5-person team — IoT part)"
 ---
 
-- [GitHub Repository](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)
+[GitHub Repository](https://github.com/capstone-SeedLabSystem/SeedLabDigitalTwin_System)
 
 - **period:** 2026 (Jeonbuk National University Capstone Design, 5-person team)
 - **My part:** IoT · Real-time Monitoring

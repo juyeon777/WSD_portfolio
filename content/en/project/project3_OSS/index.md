@@ -6,7 +6,7 @@ reading_time: false
 summary: "A personal portfolio site from the OSS course (renewed into this site)"
 ---
 
-- [GitHub Repository](https://github.com/juyeon777/WSD_portfolio)
+[GitHub Repository](https://github.com/juyeon777/WSD_portfolio)
 
 ![Litmus Project Image](project3.jpg)
 

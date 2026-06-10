@@ -6,7 +6,7 @@ reading_time: false
 summary: "OSS 과목에서 만든 개인 포트폴리오 웹사이트 (현재 사이트로 리뉴얼)"
 ---
 
-- [GitHub 저장소](https://github.com/juyeon777/WSD_portfolio)
+[GitHub 저장소](https://github.com/juyeon777/WSD_portfolio)
 
 ![Litmus Project Image](project3.jpg)
 

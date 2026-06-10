@@ -63,27 +63,11 @@ html.dark .container:has(> a.mb-5) p.block { color: #cdd9d9 !important; }
 .container:has(> a.mb-5) p.mt-2 { margin-top: auto !important; padding-top: .9rem; }
 
 /* ---- GitHub / live-site link → centered button (like the résumé download) ---- */
-.prose ul:has(> li > a[href*="github.com"]),
-.prose ul:has(> li > a[href*=".github.io"]) {
-  padding-left: 0 !important;
-  margin-left: 0 !important;
-  list-style: none;
-}
-.prose li:has(> a[href*="github.com"]),
-.prose li:has(> a[href*=".github.io"]) {
-  list-style: none;
-  display: block;
+/* the GitHub link is a standalone paragraph → center it */
+.prose p:has(> a[href*="github.com"]),
+.prose p:has(> a[href*=".github.io"]) {
   text-align: center;
-  padding-left: 0 !important;
-  margin: .2rem 0 1.4rem;
-}
-/* remove the prose bullet dot (drawn via ::before / ::marker) */
-.prose li:has(> a[href*="github.com"])::before,
-.prose li:has(> a[href*=".github.io"])::before,
-.prose li:has(> a[href*="github.com"])::marker,
-.prose li:has(> a[href*=".github.io"])::marker {
-  content: none !important;
-  display: none !important;
+  margin: .3rem 0 1.5rem;
 }
 .prose a[href*="github.com"],
 .prose a[href*=".github.io"] {
