@@ -1,6 +1,6 @@
 main:
   - name: home
-    pageRef: /
+    url: ""
     weight: 10
 
   - name: resume
