@@ -38,18 +38,22 @@ education:
     institution: Jeonbuk National University
     date_start: 2022-03-01
     date_end: 2027-02-28
-    summary: |
-       Studying computer science with a focus on backend, data and IoT — turning theory into working systems through undergraduate research, a capstone and many side projects.
+#     summary: |
+#       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
 #     button:
 #       text: 'Read Thesis'
 #       url: 'https://example.com'
 
-  - area: Leave of Absence — a year of self-driven growth
+  - area: Leave of Absence
     institution: Jeonbuk National University
     date_start: 2025-01-01
     date_end: 2025-12-31
     summary: |
-       Not a pause, but a year I filled on my own terms. I backpacked across Europe with money I earned myself, wrapped up my undergraduate research to publish a **KCI-indexed paper (2nd author)**, and passed the **Engineer Information Processing written exam (2025, 3rd round)**.
+       **A year of self-driven growth**
+
+       - Broadened my horizons through travel in Europe
+       - Published a KCI-indexed paper
+       - Passed the Engineer Information Processing written exam
 
 work:
   - position: Director of Planning

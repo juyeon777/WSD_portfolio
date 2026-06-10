@@ -7,14 +7,6 @@ type: landing
 
 # Page sections
 sections:
-  - block: markdown
-    id: contact-title
-    content:
-      text: |
-        <h1 class="page-title text-4xl tracking-tight">연락처</h1>
-        <p class="page-subtitle">궁금한 점이나 협업 제안이 있다면 편하게 연락 주세요.</p>
-    design:
-      columns: '1'
   - block: contact
     id: contact
     content:
