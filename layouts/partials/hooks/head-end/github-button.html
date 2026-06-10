@@ -6,8 +6,6 @@
    ============================================================ */
 
 /* ---- Project list: each project = its own card, laid out in a grid ---- */
-/* the single wrapper holds all project <a> cards; turn it into a grid and
-   strip its own box styling so it is not one big box */
 .container:has(> a.mb-5) {
   max-width: 1100px !important;
   display: grid !important;
@@ -20,7 +18,6 @@
   overflow: visible !important;
   padding: .5rem 1rem 1rem;
 }
-/* each project link → an individual card */
 .container:has(> a.mb-5) > a {
   display: block;
   margin: 0 !important;
@@ -42,18 +39,15 @@ html.dark .container:has(> a.mb-5) > a {
   border-color: rgba(110, 163, 163, .22);
   border-top-color: #6ea3a3;
 }
-.container:has(> a.mb-5) .p-8 { padding: 1.4rem 1.5rem; }
+.container:has(> a.mb-5) > a > div { display: block !important; height: 100%; }
+.container:has(> a.mb-5) .p-8 { display: flex; flex-direction: column; height: 100%; padding: 1.4rem 1.5rem; }
 .container:has(> a.mb-5) .uppercase {
   color: #2f4f4f !important;
   letter-spacing: .02em;
   font-size: 1.02rem;
+  margin-bottom: .55rem;
 }
 html.dark .container:has(> a.mb-5) .uppercase { color: #a7cccc !important; }
-/* card inner layout: full-height column so the date pins to the bottom */
-.container:has(> a.mb-5) > a > div { display: block !important; height: 100%; }
-.container:has(> a.mb-5) .p-8 { display: flex; flex-direction: column; height: 100%; }
-.container:has(> a.mb-5) .uppercase { margin-bottom: .55rem; }
-/* summary: clamp to 3 lines, lighter so the card is easy on the eyes */
 .container:has(> a.mb-5) p.block {
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -66,54 +60,66 @@ html.dark .container:has(> a.mb-5) .uppercase { color: #a7cccc !important; }
   margin-top: 0;
 }
 html.dark .container:has(> a.mb-5) p.block { color: #cdd9d9 !important; }
-/* date pinned to the bottom of the card */
 .container:has(> a.mb-5) p.mt-2 { margin-top: auto !important; padding-top: .9rem; }
 
-/* ---- Link buttons (GitHub / live site) inside project detail content ---- */
-/* style ONLY the link list-items as buttons; do NOT flex the whole <ul>
-   (older projects keep the link in the same list as the text bullets) */
+/* ---- GitHub / live-site link → centered button (like the résumé download) ---- */
+.prose ul:has(> li > a[href*="github.com"]),
+.prose ul:has(> li > a[href*=".github.io"]) { padding-left: 0; }
 .prose li:has(> a[href*="github.com"]),
 .prose li:has(> a[href*=".github.io"]) {
   list-style: none;
-  display: inline-block;
-  margin: .3rem .5rem .3rem 0;
+  display: block;
+  text-align: center;
+  margin: .5rem 0;
 }
 .prose a[href*="github.com"],
 .prose a[href*=".github.io"] {
   display: inline-flex;
   align-items: center;
-  gap: .5rem;
-  padding: .5rem 1rem;
-  border-radius: 9999px;
-  background: #2f4f4f;
-  color: #fff !important;
-  font-size: .88em;
-  font-weight: 600;
+  gap: .55rem;
+  padding: .55rem 1.15rem;
+  font-size: .9em;
+  font-weight: 500;
+  color: #1f2937 !important;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: .5rem;
   text-decoration: none !important;
-  box-shadow: 0 2px 6px rgba(47, 79, 79, .25);
-  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+  transition: background .15s ease, color .15s ease, transform .15s ease, box-shadow .15s ease;
 }
 .prose a[href*="github.com"]:hover,
 .prose a[href*=".github.io"]:hover {
+  background: #f3f4f6;
+  color: #2f4f4f !important;
   transform: translateY(-2px);
-  background: #233e3e;
-  box-shadow: 0 7px 18px rgba(47, 79, 79, .4);
+  box-shadow: 0 6px 16px rgba(47, 79, 79, .16);
 }
 html.dark .prose a[href*="github.com"],
-html.dark .prose a[href*=".github.io"] { background: #3c6363; }
+html.dark .prose a[href*=".github.io"] {
+  background: rgb(40, 64, 64);
+  color: #d7e6e6 !important;
+  border-color: rgba(110, 163, 163, .35);
+}
 html.dark .prose a[href*="github.com"]:hover,
-html.dark .prose a[href*=".github.io"]:hover { background: #4f7d7d; }
+html.dark .prose a[href*=".github.io"]:hover { background: rgb(52, 80, 80); color: #fff !important; }
+/* GitHub mark via mask so it follows the text color in both light/dark */
 .prose a[href*="github.com"]::before {
   content: "";
-  width: 1.05em;
-  height: 1.05em;
+  width: 1.1em;
+  height: 1.1em;
   flex: 0 0 auto;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z'/%3E%3C/svg%3E") no-repeat center / contain;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z'/%3E%3C/svg%3E") no-repeat center / contain;
 }
-.prose a[href*=".github.io"]::before {
-  content: "\1F310";
-  font-size: .95em;
-}
+.prose a[href*=".github.io"]::before { content: "\1F310"; font-size: .95em; }
+
+/* ---- Hide single-page share buttons (X / Facebook / …) ---- */
+.print\:hidden:has(#share-link-x) { display: none !important; }
+
+/* ---- Hide single-page author profile box at the bottom ---- */
+div.flex.pt-12:has(img[src*="/author/"]) { display: none !important; }
 
 /* ---- Project-detail section headings (teal accent) ---- */
 .prose h2 {
@@ -124,7 +130,7 @@ html.dark .prose a[href*=".github.io"]:hover { background: #4f7d7d; }
 }
 html.dark .prose h2 { border-left-color: #6ea3a3; }
 
-/* ---- Home first impression: social icon hover + résumé button ---- */
+/* ---- Home first impression: social icon hover + résumé button + avatar ---- */
 #profile .network-icon a {
   display: inline-block;
   transition: transform .15s ease, color .15s ease;
@@ -133,9 +139,7 @@ html.dark .prose h2 { border-left-color: #6ea3a3; }
   transform: translateY(-3px) scale(1.12);
   color: #2f4f4f;
 }
-#profile a[href*="resume.pdf"] {
-  transition: transform .15s ease, box-shadow .15s ease;
-}
+#profile a[href*="resume.pdf"] { transition: transform .15s ease, box-shadow .15s ease; }
 #profile a[href*="resume.pdf"]:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(47, 79, 79, .22);
