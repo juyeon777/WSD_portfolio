@@ -26,6 +26,19 @@ sections:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
   - block: markdown
+    id: featured-projects
+    content:
+      title: 대표 프로젝트
+      text: |
+        <div class="fp-grid">
+        <a class="fp-card" href="project/seedlab_digitaltwin/"><img src="project/seedlab_digitaltwin/thumb.jpg" alt="종자 증식실 디지털 트윈" loading="lazy"><span class="fp-tag">캡스톤 · IoT</span><div class="fp-overlay"><p class="fp-title">종자 증식실 디지털 트윈</p><p class="fp-desc">IoT 센서로 실시간 모니터링하는 웹 디지털 트윈</p></div></a>
+        <a class="fp-card" href="project/project2_lab/"><img src="project/project2_lab/thumb.jpg" alt="시내버스 승객 예측" loading="lazy"><span class="fp-tag">논문 · ML</span><div class="fp-overlay"><p class="fp-title">시내버스 승객 예측</p><p class="fp-desc">교통카드 빅데이터·머신러닝 기반 승객 예측 (KCI 논문)</p></div></a>
+        <a class="fp-card" href="project/sw_engineering_car/"><img src="project/sw_engineering_car/thumb.jpg" alt="자동차 시스템" loading="lazy"><span class="fp-tag">SW공학</span><div class="fp-overlay"><p class="fp-title">자동차 시스템</p><p class="fp-desc">SRS·TDD로 구현한 자동차 시스템 팀 프로젝트</p></div></a>
+        </div>
+        <div class="fp-more"><a href="project/">전체 프로젝트 보기 →</a></div>
+    design:
+      columns: '1'
+  - block: markdown
     id: work-style
     content:
       title: 성격 및 업무 스타일
@@ -50,19 +63,6 @@ sections:
         <li>재작업을 선호 → 협업 시 '충분한 선'을 먼저 합의</li>
         <li>피드백이 간결해질 때 → 결론에 배경 맥락을 덧붙임</li>
         </ul>
-    design:
-      columns: '1'
-  - block: markdown
-    id: featured-projects
-    content:
-      title: 대표 프로젝트
-      text: |
-        <div class="fp-grid">
-        <a class="fp-card" href="project/seedlab_digitaltwin/"><img src="project/seedlab_digitaltwin/thumb.jpg" alt="종자 증식실 디지털 트윈" loading="lazy"><span class="fp-tag">캡스톤 · IoT</span><div class="fp-overlay"><p class="fp-title">종자 증식실 디지털 트윈</p><p class="fp-desc">IoT 센서로 실시간 모니터링하는 웹 디지털 트윈</p></div></a>
-        <a class="fp-card" href="project/project2_lab/"><img src="project/project2_lab/thumb.jpg" alt="시내버스 승객 예측" loading="lazy"><span class="fp-tag">논문 · ML</span><div class="fp-overlay"><p class="fp-title">시내버스 승객 예측</p><p class="fp-desc">교통카드 빅데이터·머신러닝 기반 승객 예측 (KCI 논문)</p></div></a>
-        <a class="fp-card" href="project/sw_engineering_car/"><img src="project/sw_engineering_car/thumb.jpg" alt="자동차 시스템" loading="lazy"><span class="fp-tag">SW공학</span><div class="fp-overlay"><p class="fp-title">자동차 시스템</p><p class="fp-desc">SRS·TDD로 구현한 자동차 시스템 팀 프로젝트</p></div></a>
-        </div>
-        <div class="fp-more"><a href="project/">전체 프로젝트 보기 →</a></div>
     design:
       columns: '1'
 ---
