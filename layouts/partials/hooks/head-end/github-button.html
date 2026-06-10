@@ -235,20 +235,26 @@ html.dark .resume-name { color: #f1e6c5; }
 html.dark .resume-name span { color: #bfb188; }
 .resume-tagline { font-size: 1.05rem; font-weight: 600; color: #bf8f00; margin: 0 0 .8rem; }
 html.dark .resume-tagline { color: #ecd07a; }
-.resume-contact { font-size: .92rem; color: #5b5b5b; margin: 0 0 1.4rem; display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; }
-.resume-contact a { color: #8c6a00; text-decoration: none; font-weight: 600; }
-.resume-contact a:hover { text-decoration: underline; }
-html.dark .resume-contact { color: #d8cfb4; }
-html.dark .resume-contact a { color: #e6c970; }
-.resume-download {
-  display: inline-flex; align-items: center; gap: .45rem;
-  padding: .6rem 1.3rem; border-radius: .6rem;
-  background: #bf8f00; color: #fff !important; font-weight: 600; font-size: .92rem;
-  text-decoration: none !important; box-shadow: 0 4px 12px rgba(150, 110, 0, .22);
-  transition: transform .15s ease, box-shadow .15s ease;
+/* résumé hero action buttons — stacked vertically, full-width */
+.resume-actions { display: flex; flex-direction: column; gap: .55rem; max-width: 340px; margin: 1.2rem auto 0; }
+.resume-actions a.resume-btn {
+  display: flex; align-items: center; justify-content: center; gap: .5rem;
+  width: 100%; padding: .64rem 1rem; border-radius: .6rem;
+  font-size: .92rem; font-weight: 600;
+  background: #fff !important; color: #5a4a13 !important;
+  border: 1px solid #f0e2b6 !important;
+  text-decoration: none !important; box-shadow: 0 1px 3px rgba(0, 0, 0, .05) !important;
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease, color .15s ease;
 }
-.resume-download:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(150, 110, 0, .30); }
-html.dark .resume-download { background: #e0bd5a; color: #2a2310 !important; }
+.resume-actions a.resume-btn:hover { transform: translateY(-2px); background: #fbf3d8 !important; color: #8c6a00 !important; box-shadow: 0 6px 16px rgba(150, 110, 0, .16) !important; }
+.resume-actions a.resume-btn--primary { background: #bf8f00 !important; color: #fff !important; border-color: #bf8f00 !important; box-shadow: 0 4px 12px rgba(150, 110, 0, .22) !important; }
+.resume-actions a.resume-btn--primary:hover { background: #a87d00 !important; color: #fff !important; box-shadow: 0 8px 20px rgba(150, 110, 0, .30) !important; }
+/* neutralize the inherited prose github-button look + ::before icon inside the action group */
+.prose .resume-actions a[href*="github.com"]::before { content: none !important; }
+html.dark .resume-actions a.resume-btn { background: rgb(48, 42, 27) !important; color: #e7debb !important; border-color: rgba(200, 165, 80, .3) !important; }
+html.dark .resume-actions a.resume-btn:hover { background: rgb(62, 53, 30) !important; color: #fff !important; }
+html.dark .resume-actions a.resume-btn--primary { background: #e0bd5a !important; color: #2a2310 !important; border-color: #e0bd5a !important; }
+html.dark .resume-actions a.resume-btn--primary:hover { background: #d4ad44 !important; color: #2a2310 !important; }
 /* résumé section heading — distinct from prose h2 left-border */
 .resume-h2 {
   border-left: none !important; padding-left: 0 !important;

@@ -18,12 +18,11 @@ sections:
         <div class="resume-hero">
           <h1 class="resume-name">박주연 <span>Park Ju Yeon</span></h1>
           <p class="resume-tagline">백엔드 · 데이터 · IoT를 아우르며 실제로 쓰이는 시스템을 만드는 개발자</p>
-          <p class="resume-contact">
-            <a href="mailto:okk1829@gmail.com">okk1829@gmail.com</a>
-            <span>·</span>
-            <a href="https://github.com/juyeon777" target="_blank">github.com/juyeon777</a>
-          </p>
-          <a href="/WSD_portfolio/uploads/resume.pdf" target="_blank" class="resume-download">📄 이력서 PDF 다운로드</a>
+          <div class="resume-actions">
+            <a class="resume-btn" href="mailto:okk1829@gmail.com">✉️ okk1829@gmail.com</a>
+            <a class="resume-btn" href="https://github.com/juyeon777" target="_blank">🐙 github.com/juyeon777</a>
+            <a class="resume-btn resume-btn--primary" href="/WSD_portfolio/uploads/resume.pdf" target="_blank">📄 이력서 PDF 다운로드</a>
+          </div>
         </div>
     design:
       columns: '1'
@@ -42,6 +41,8 @@ sections:
         <span class="tech-badge">Vue</span><span class="tech-badge">React</span><span class="tech-badge">HTML / CSS</span>
         <span class="cat">IoT &amp; Infra</span>
         <span class="tech-badge">Arduino</span><span class="tech-badge">Raspberry Pi</span><span class="tech-badge">MQTT / RabbitMQ</span><span class="tech-badge">Docker</span><span class="tech-badge">AWS</span><span class="tech-badge">Azure VM</span><span class="tech-badge">Git</span>
+        <span class="cat">AI · 바이브코딩</span>
+        <span class="tech-badge">Claude Code</span>
         </div>
     design:
       columns: '1'
