@@ -16,5 +16,6 @@ summary: "A Vue front-end demo site built with GPT (incl. renewal)"
 - Development: Built the UI and features with Vue (using GPT)
 - Renewal: Restructured in a separate repository
 
+[Live Site](https://yeonplay.netlify.app/)
 [GitHub Repository (YeonPlay)](https://github.com/juyeon777/YeonPlay)
 [GitHub Repository (Renewal)](https://github.com/juyeon777/renewal_yeonplay)
