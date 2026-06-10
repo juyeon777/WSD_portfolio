@@ -1,6 +1,6 @@
 main:
   - name: 홈
-    url: /
+    pageRef: /
     weight: 10
 
   - name: 이력서
