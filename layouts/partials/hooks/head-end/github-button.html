@@ -63,11 +63,11 @@ html.dark .container:has(> a.mb-5) p.block { color: #cdd9d9 !important; }
 .container:has(> a.mb-5) p.mt-2 { margin-top: auto !important; padding-top: .9rem; }
 
 /* ---- GitHub / live-site link → centered button (like the résumé download) ---- */
-/* the GitHub link is a standalone paragraph → center it */
+/* the GitHub link is a standalone paragraph at the bottom (left-aligned) */
 .prose p:has(> a[href*="github.com"]),
 .prose p:has(> a[href*=".github.io"]) {
-  text-align: center;
-  margin: .3rem 0 1.5rem;
+  text-align: left;
+  margin: 1.2rem 0 .3rem;
 }
 .prose a[href*="github.com"],
 .prose a[href*=".github.io"] {
