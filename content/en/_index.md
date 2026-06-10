@@ -36,13 +36,13 @@ sections:
         </div>
         <p class="ws-lead">I aim high, but I prove it by polishing the result to the end. I first set clear evaluation criteria and judge against them, pinpoint the specific problems in the output, and raise the quality through iterative improvement. I don't stop at planning — I set up version control and a structured working environment to actually execute.</p>
         <div class="ws-label">Strengths</div>
-        <div class="ws-grid">
-        <div class="ws-card">Break criteria down → adopt as decision standards</div>
-        <div class="ws-card">Pinpoint problems as concrete actions → iterate</div>
-        <div class="ws-card">Separate "want to do" vs "doable by deadline"</div>
-        <div class="ws-card">Prioritize & allocate time by patterns/evidence</div>
-        <div class="ws-card">Beyond planning → build the workflow (Git, modules)</div>
-        <div class="ws-card">Concrete goals → tailored preparation</div>
+        <div class="ws-chips">
+        <span class="ws-chip">Break criteria down → adopt as decision standards</span>
+        <span class="ws-chip">Pinpoint problems as concrete actions → iterate</span>
+        <span class="ws-chip">Separate "want to do" vs "doable by deadline"</span>
+        <span class="ws-chip">Prioritize & allocate time by patterns/evidence</span>
+        <span class="ws-chip">Beyond planning → build the workflow (Git, modules)</span>
+        <span class="ws-chip">Concrete goals → tailored preparation</span>
         </div>
         <div class="ws-label">Growth Points</div>
         <ul class="ws-growth">
@@ -50,6 +50,19 @@ sections:
         <li>I prefer rework → I first agree on "what's good enough" in collaboration</li>
         <li>My feedback can get terse → I add background context to the conclusion</li>
         </ul>
+    design:
+      columns: '1'
+  - block: markdown
+    id: featured-projects
+    content:
+      title: Featured Projects
+      text: |
+        <div class="fp-grid">
+        <a class="fp-card" href="project/seedlab_digitaltwin/"><img src="project/seedlab_digitaltwin/featured.png" alt="Seed Lab Digital Twin" loading="lazy"><div class="fp-body"><p class="fp-title">Seed Lab Digital Twin</p><p class="fp-desc">A web digital twin that monitors a seed propagation room in real time via IoT sensors (capstone, 5-person team)</p></div></a>
+        <a class="fp-card" href="project/project2_lab/"><img src="project/project2_lab/featured.png" alt="City Bus Passenger Prediction" loading="lazy"><div class="fp-body"><p class="fp-title">City-Bus Passenger Prediction</p><p class="fp-desc">ML-based passenger prediction on transit-card big data — published in a KCI paper (2nd author)</p></div></a>
+        <a class="fp-card" href="project/sw_engineering_car/"><img src="project/sw_engineering_car/featured.png" alt="Car System" loading="lazy"><div class="fp-body"><p class="fp-title">Car System (SW Engineering)</p><p class="fp-desc">A car-system team project built with an SRS and TDD</p></div></a>
+        </div>
+        <div class="fp-more"><a href="project/">View all projects →</a></div>
     design:
       columns: '1'
 ---

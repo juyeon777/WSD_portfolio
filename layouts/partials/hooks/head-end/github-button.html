@@ -213,14 +213,14 @@ html.dark .nav-link::after { background: #ecd07a; }
 /* section divider (under-bar) between the biography hero and this section */
 #work-style::before { content: ""; display: block; width: 64px; height: 4px; border-radius: 3px; background: #bf8f00; margin: 0 auto 2.6rem; }
 html.dark #work-style::before { background: #e0bd5a; }
-.ws-quote, .ws-lead, .ws-label, .ws-grid, .ws-growth { max-width: 740px; margin-left: auto; margin-right: auto; }
+.ws-quote, .ws-lead, .ws-label, .ws-chips, .ws-growth { max-width: 740px; margin-left: auto; margin-right: auto; }
 .ws-quote {
   text-align: center;
   padding: 2rem 1.6rem 1.7rem;
   margin: .5rem auto 2rem;
   border-radius: 20px;
-  background: linear-gradient(135deg, #fdf6e1 0%, #faf0d2 100%);
-  border: 1px solid #f0e2b8;
+  background: linear-gradient(135deg, #fdf8e9 0%, #fbf3dd 100%);
+  border: none;
   position: relative; overflow: hidden;
 }
 html.dark .ws-quote { background: linear-gradient(135deg, rgba(74,60,26,.5) 0%, rgba(58,47,22,.5) 100%); border-color: rgba(200,165,80,.18); }
@@ -239,25 +239,30 @@ html.dark .ws-lead { color: #cfc4a6; }
 html.dark .ws-label { color: #ecd07a; }
 .ws-label::before { content: ""; width: 5px; height: 1.05em; border-radius: 3px; background: #bf8f00; }
 html.dark .ws-label::before { background: #e0bd5a; }
-.ws-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: .75rem; margin-bottom: 2.4rem; }
-.ws-card {
-  background: #fff; border: 1px solid #ececec; border-radius: 14px;
-  padding: 1rem 1.1rem 1rem 2.6rem; position: relative;
-  font-size: .92rem; line-height: 1.55; color: #3c463f;
-  box-shadow: 0 1px 3px rgba(0,0,0,.04);
-  transition: transform .18s ease, box-shadow .18s ease;
+.ws-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: .55rem; margin-bottom: 2.4rem; }
+.ws-chip {
+  background: #fbf3d8; color: #8c6a00; border: 1px solid #f0e2b6;
+  border-radius: 9999px; padding: .52rem 1.05rem;
+  font-size: .88rem; font-weight: 600; line-height: 1.4;
+  transition: transform .15s ease, box-shadow .15s ease;
 }
-.ws-card:hover { transform: translateY(-3px); box-shadow: 0 12px 24px rgba(47,79,79,.1); }
-html.dark .ws-card { background: rgb(40,58,55); border-color: rgba(110,163,163,.16); color: #d5cab0; }
-.ws-card::before {
-  content: "\2713"; position: absolute; left: .95rem; top: .9rem;
-  width: 1.2rem; height: 1.2rem; border-radius: 50%;
-  background: #bf8f00; color: #fff; font-size: .72rem; font-weight: 800;
-  display: flex; align-items: center; justify-content: center;
-}
-html.dark .ws-card::before { background: #e0bd5a; color: #3a2e0a; }
-.ws-card-note { display: block; margin-top: .25rem; font-size: .82em; color: #8c988f; }
-html.dark .ws-card-note { color: #93a79f; }
+.ws-chip:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(150, 110, 0, .14); }
+html.dark .ws-chip { background: rgba(191, 143, 0, .14); color: #e6c970; border-color: rgba(200, 165, 80, .22); }
+
+/* ---- 대표 프로젝트 (featured projects on home) ---- */
+.fp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.1rem; max-width: 880px; margin: 0 auto; }
+.fp-card { display: block; background: #fff; border: 1px solid #ececec; border-radius: 16px; overflow: hidden; text-decoration: none; box-shadow: 0 2px 10px rgba(0, 0, 0, .06); transition: transform .2s ease, box-shadow .2s ease; }
+.fp-card:hover { transform: translateY(-5px); box-shadow: 0 14px 30px rgba(150, 110, 0, .16); }
+.fp-card img { width: 100%; height: 142px; object-fit: cover; display: block; }
+.fp-body { padding: .95rem 1.05rem 1.1rem; }
+.fp-title { font-weight: 700; color: #bf8f00; font-size: .98rem; margin: 0 0 .35rem; }
+.fp-desc { font-size: .84rem; color: #5b6660; line-height: 1.5; margin: 0; }
+.fp-more { text-align: center; margin-top: 1.4rem; }
+.fp-more a { color: #bf8f00; font-weight: 600; font-size: .92rem; text-decoration: none; }
+.fp-more a:hover { text-decoration: underline; }
+html.dark .fp-card { background: rgb(46, 40, 26); border-color: rgba(200, 165, 80, .18); }
+html.dark .fp-title, html.dark .fp-more a { color: #e0bd5a; }
+html.dark .fp-desc { color: #c3b896; }
 .ws-growth { list-style: none; padding: 0; display: flex; flex-direction: column; gap: .65rem; }
 .ws-growth li { position: relative; padding-left: 1.5rem; font-size: .92rem; line-height: 1.65; color: #5c6862; }
 .ws-growth li::before { content: "\2192"; position: absolute; left: 0; top: 0; color: #bf8f00; font-weight: 800; }

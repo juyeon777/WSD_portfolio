@@ -112,5 +112,8 @@ languages:
 
 ---
 
-Hello. I am a student in the Department of IT Intelligence and Information Engineering at Jeonbuk National University and an undergraduate researcher in the Computer Vision Lab.
-I'm currently interested in back-end, front-end, and databases. I have just discovered a field that I am interested in, and I am studying it step by step.
+Hello! I'm Park Ju Yeon, studying in the Department of IT Intelligence and Information Engineering at Jeonbuk National University and working as an undergraduate researcher in the **Computer Vision Lab**. Through the lab I joined research on city-bus passenger prediction using transit-card big data, and the results were published as a **KCI-listed paper**.
+
+Across my projects I learned one thing: turning an idea into a working system means owning the whole process — not just planning, but data collection, backend, frontend, and deployment. Moving across IoT digital twins, a recruitment-platform backend, data analysis, and web services, I've turned vague curiosity into a habit of finishing and proving my work.
+
+In particular, while building the smart seed-propagation-room digital twin with **HEADIT Co., Ltd.**, I created the full flow from collecting and visualizing IoT sensor data in real time to remote control — and I was drawn to solving real-world problems with data and software. Going forward, I want to grow into a developer who builds systems that are actually used, spanning **backend, data, and IoT**.
