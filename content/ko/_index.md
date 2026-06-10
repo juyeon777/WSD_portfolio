@@ -58,9 +58,9 @@ sections:
       title: 대표 프로젝트
       text: |
         <div class="fp-grid">
-        <a class="fp-card" href="project/seedlab_digitaltwin/"><img src="project/seedlab_digitaltwin/featured.png" alt="종자 증식실 디지털 트윈" loading="lazy"><div class="fp-body"><p class="fp-title">종자 증식실 디지털 트윈</p><p class="fp-desc">IoT 센서로 종자 증식실을 실시간 모니터링·시각화하는 웹 디지털 트윈 (캡스톤·5인 팀)</p></div></a>
-        <a class="fp-card" href="project/project2_lab/"><img src="project/project2_lab/featured.png" alt="시내버스 승객 예측" loading="lazy"><div class="fp-body"><p class="fp-title">시내버스 승객 예측</p><p class="fp-desc">교통카드 빅데이터·머신러닝 기반 승객 예측 — KCI 논문 게재 (제2저자)</p></div></a>
-        <a class="fp-card" href="project/sw_engineering_car/"><img src="project/sw_engineering_car/featured.png" alt="자동차 시스템" loading="lazy"><div class="fp-body"><p class="fp-title">자동차 시스템 (SW공학)</p><p class="fp-desc">SRS 작성·TDD 기반으로 구현한 자동차 시스템 팀 프로젝트</p></div></a>
+        <a class="fp-card" href="project/seedlab_digitaltwin/"><img src="project/seedlab_digitaltwin/thumb.jpg" alt="종자 증식실 디지털 트윈" loading="lazy"><span class="fp-tag">캡스톤 · IoT</span><div class="fp-overlay"><p class="fp-title">종자 증식실 디지털 트윈</p><p class="fp-desc">IoT 센서로 실시간 모니터링하는 웹 디지털 트윈</p></div></a>
+        <a class="fp-card" href="project/project2_lab/"><img src="project/project2_lab/thumb.jpg" alt="시내버스 승객 예측" loading="lazy"><span class="fp-tag">논문 · ML</span><div class="fp-overlay"><p class="fp-title">시내버스 승객 예측</p><p class="fp-desc">교통카드 빅데이터·머신러닝 기반 승객 예측 (KCI 논문)</p></div></a>
+        <a class="fp-card" href="project/sw_engineering_car/"><img src="project/sw_engineering_car/thumb.jpg" alt="자동차 시스템" loading="lazy"><span class="fp-tag">SW공학</span><div class="fp-overlay"><p class="fp-title">자동차 시스템</p><p class="fp-desc">SRS·TDD로 구현한 자동차 시스템 팀 프로젝트</p></div></a>
         </div>
         <div class="fp-more"><a href="project/">전체 프로젝트 보기 →</a></div>
     design:

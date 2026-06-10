@@ -58,9 +58,9 @@ sections:
       title: Featured Projects
       text: |
         <div class="fp-grid">
-        <a class="fp-card" href="project/seedlab_digitaltwin/"><img src="project/seedlab_digitaltwin/featured.png" alt="Seed Lab Digital Twin" loading="lazy"><div class="fp-body"><p class="fp-title">Seed Lab Digital Twin</p><p class="fp-desc">A web digital twin that monitors a seed propagation room in real time via IoT sensors (capstone, 5-person team)</p></div></a>
-        <a class="fp-card" href="project/project2_lab/"><img src="project/project2_lab/featured.png" alt="City Bus Passenger Prediction" loading="lazy"><div class="fp-body"><p class="fp-title">City-Bus Passenger Prediction</p><p class="fp-desc">ML-based passenger prediction on transit-card big data — published in a KCI paper (2nd author)</p></div></a>
-        <a class="fp-card" href="project/sw_engineering_car/"><img src="project/sw_engineering_car/featured.png" alt="Car System" loading="lazy"><div class="fp-body"><p class="fp-title">Car System (SW Engineering)</p><p class="fp-desc">A car-system team project built with an SRS and TDD</p></div></a>
+        <a class="fp-card" href="project/seedlab_digitaltwin/"><img src="project/seedlab_digitaltwin/thumb.jpg" alt="Seed Lab Digital Twin" loading="lazy"><span class="fp-tag">Capstone · IoT</span><div class="fp-overlay"><p class="fp-title">Seed Lab Digital Twin</p><p class="fp-desc">A web digital twin monitoring a seed room in real time via IoT</p></div></a>
+        <a class="fp-card" href="project/project2_lab/"><img src="project/project2_lab/thumb.jpg" alt="City Bus Passenger Prediction" loading="lazy"><span class="fp-tag">Paper · ML</span><div class="fp-overlay"><p class="fp-title">City-Bus Passenger Prediction</p><p class="fp-desc">ML-based passenger prediction on transit-card big data (KCI paper)</p></div></a>
+        <a class="fp-card" href="project/sw_engineering_car/"><img src="project/sw_engineering_car/thumb.jpg" alt="Car System" loading="lazy"><span class="fp-tag">SW Eng.</span><div class="fp-overlay"><p class="fp-title">Car System</p><p class="fp-desc">A car-system team project built with an SRS and TDD</p></div></a>
         </div>
         <div class="fp-more"><a href="project/">View all projects →</a></div>
     design:

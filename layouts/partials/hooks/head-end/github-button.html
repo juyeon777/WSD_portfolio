@@ -250,19 +250,21 @@ html.dark .ws-label::before { background: #e0bd5a; }
 html.dark .ws-chip { background: rgba(191, 143, 0, .14); color: #e6c970; border-color: rgba(200, 165, 80, .22); }
 
 /* ---- 대표 프로젝트 (featured projects on home) ---- */
-.fp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.1rem; max-width: 880px; margin: 0 auto; }
-.fp-card { display: block; background: #fff; border: 1px solid #ececec; border-radius: 16px; overflow: hidden; text-decoration: none; box-shadow: 0 2px 10px rgba(0, 0, 0, .06); transition: transform .2s ease, box-shadow .2s ease; }
-.fp-card:hover { transform: translateY(-5px); box-shadow: 0 14px 30px rgba(150, 110, 0, .16); }
-.fp-card img { width: 100%; height: 142px; object-fit: cover; display: block; }
-.fp-body { padding: .95rem 1.05rem 1.1rem; }
-.fp-title { font-weight: 700; color: #bf8f00; font-size: .98rem; margin: 0 0 .35rem; }
-.fp-desc { font-size: .84rem; color: #5b6660; line-height: 1.5; margin: 0; }
-.fp-more { text-align: center; margin-top: 1.4rem; }
+.fp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(235px, 1fr)); gap: 1.1rem; max-width: 920px; margin: 0 auto; }
+.fp-card { position: relative; display: block; height: 232px; border-radius: 18px; overflow: hidden; text-decoration: none; box-shadow: 0 4px 16px rgba(0, 0, 0, .12); transition: transform .25s ease, box-shadow .25s ease; }
+.fp-card:hover { transform: translateY(-6px); box-shadow: 0 18px 38px rgba(150, 110, 0, .26); }
+.fp-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .55s ease; }
+.fp-card:hover img { transform: scale(1.09); }
+.fp-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 1.1rem 1.15rem 1.2rem; background: linear-gradient(to top, rgba(18, 14, 3, .9) 0%, rgba(18, 14, 3, .5) 42%, rgba(18, 14, 3, 0) 72%); }
+.fp-tag { position: absolute; top: .85rem; left: .85rem; background: rgba(191, 143, 0, .95); color: #fff; font-size: .7rem; font-weight: 700; letter-spacing: .02em; padding: .28rem .62rem; border-radius: 9999px; box-shadow: 0 2px 6px rgba(0, 0, 0, .25); }
+.fp-title { color: #fff; font-weight: 800; font-size: 1.04rem; margin: 0 0 .3rem; line-height: 1.3; text-shadow: 0 1px 4px rgba(0, 0, 0, .45); }
+.fp-desc { color: rgba(255, 255, 255, .88); font-size: .8rem; line-height: 1.45; margin: 0; text-shadow: 0 1px 3px rgba(0, 0, 0, .45); }
+.fp-card::after { content: "\2192"; position: absolute; right: .85rem; top: .78rem; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: rgba(255, 255, 255, .94); color: #bf8f00; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: .9rem; opacity: 0; transform: scale(.7); transition: opacity .25s ease, transform .25s ease; }
+.fp-card:hover::after { opacity: 1; transform: scale(1); }
+.fp-more { text-align: center; margin-top: 1.6rem; }
 .fp-more a { color: #bf8f00; font-weight: 600; font-size: .92rem; text-decoration: none; }
 .fp-more a:hover { text-decoration: underline; }
-html.dark .fp-card { background: rgb(46, 40, 26); border-color: rgba(200, 165, 80, .18); }
-html.dark .fp-title, html.dark .fp-more a { color: #e0bd5a; }
-html.dark .fp-desc { color: #c3b896; }
+html.dark .fp-more a { color: #e0bd5a; }
 .ws-growth { list-style: none; padding: 0; display: flex; flex-direction: column; gap: .65rem; }
 .ws-growth li { position: relative; padding-left: 1.5rem; font-size: .92rem; line-height: 1.65; color: #5c6862; }
 .ws-growth li::before { content: "\2192"; position: absolute; left: 0; top: 0; color: #bf8f00; font-weight: 800; }
