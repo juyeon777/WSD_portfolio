@@ -1,7 +1,7 @@
 ---
 title: "Development of a Passenger Verification System for Efficient Stops of City Buses"
 tags: ["project"]
-date: 2024-02-20
+date: 2025-08-19
 reading_time: false
 summary: "City-bus passenger prediction research that started from an industry-academia collaboration — KCI paper (2nd author, data collection)"
 ---

@@ -17,4 +17,5 @@ summary: "A personal portfolio site from the OSS course (renewed into this site)
 - Development: Built it from a template (later renewed into the current site)
 - Deployment: GitHub Pages
 
+[Live Site](https://juyeon777.github.io/WSD_portfolio/)
 [GitHub Repository](https://github.com/juyeon777/WSD_portfolio)
