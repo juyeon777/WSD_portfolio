@@ -1,12 +1,12 @@
 ---
 title: "Seed Lab Digital Twin System"
 tags: ["project"]
-date: 2026-03-23
+date: 2026-06-05
 reading_time: false
 summary: "A web digital-twin monitoring a seed propagation room via IoT sensors (capstone, 5-person team — IoT part)"
 ---
 
-- **period:** 2026 (Jeonbuk National University Capstone Design, 5-person team)
+- **period:** 2026-03-11 ~ 2026-06-05 (Jeonbuk National University Capstone Design, 5-person team)
 - **Partner company:** HEADIT Co., Ltd.
 - **My part:** IoT · Real-time Monitoring
 - A web-based digital twin system that collects, visualizes, and remotely controls the growing environment of a seed propagation room in real time using IoT sensors.
