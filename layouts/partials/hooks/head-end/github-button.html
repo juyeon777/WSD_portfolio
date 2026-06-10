@@ -72,12 +72,16 @@ html.dark .container:has(> a.mb-5) p.block { color: #cdd9d9 !important; }
 /* ---- GitHub / live-site link → centered button (like the résumé download) ---- */
 /* the GitHub link is a standalone paragraph at the bottom (left-aligned) */
 .prose p:has(> a[href*="github.com"]),
-.prose p:has(> a[href*=".github.io"]) {
+.prose p:has(> a[href*=".github.io"]),
+.prose p:has(> a[href*="kci.go.kr"]),
+.prose p:has(> a[href$="paper.pdf"]) {
   text-align: left;
   margin: 1.2rem 0 .3rem;
 }
 .prose a[href*="github.com"],
-.prose a[href*=".github.io"] {
+.prose a[href*=".github.io"],
+.prose a[href*="kci.go.kr"],
+.prose a[href$="paper.pdf"] {
   display: inline-flex;
   align-items: center;
   gap: .55rem;
@@ -93,20 +97,26 @@ html.dark .container:has(> a.mb-5) p.block { color: #cdd9d9 !important; }
   transition: background .15s ease, color .15s ease, transform .15s ease, box-shadow .15s ease;
 }
 .prose a[href*="github.com"]:hover,
-.prose a[href*=".github.io"]:hover {
+.prose a[href*=".github.io"]:hover,
+.prose a[href*="kci.go.kr"]:hover,
+.prose a[href$="paper.pdf"]:hover {
   background: #f3f4f6;
   color: #2f4f4f !important;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(47, 79, 79, .16);
 }
 html.dark .prose a[href*="github.com"],
-html.dark .prose a[href*=".github.io"] {
+html.dark .prose a[href*=".github.io"],
+html.dark .prose a[href*="kci.go.kr"],
+html.dark .prose a[href$="paper.pdf"] {
   background: rgb(40, 64, 64);
   color: #d7e6e6 !important;
   border-color: rgba(110, 163, 163, .35);
 }
 html.dark .prose a[href*="github.com"]:hover,
-html.dark .prose a[href*=".github.io"]:hover { background: rgb(52, 80, 80); color: #fff !important; }
+html.dark .prose a[href*=".github.io"]:hover,
+html.dark .prose a[href*="kci.go.kr"]:hover,
+html.dark .prose a[href$="paper.pdf"]:hover { background: rgb(52, 80, 80); color: #fff !important; }
 /* GitHub mark via mask so it follows the text color in both light/dark */
 .prose a[href*="github.com"]::before {
   content: "";
