@@ -1,7 +1,7 @@
 ---
 title: "YeonPlay — Front-End Demo Site"
 tags: ["project"]
-date: 2025-11-12
+date: 2025-07-15
 reading_time: false
 summary: "A Vue front-end demo site built with GPT (incl. renewal)"
 ---
