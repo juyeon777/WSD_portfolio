@@ -31,10 +31,10 @@ sections:
       is_education_first: false
   - block: skills
     content:
-      title: Skills
+      title: 기술
       username: admin
   - block: languages
     content:
-      title: Languages
+      title: 언어
       username: admin
 ---

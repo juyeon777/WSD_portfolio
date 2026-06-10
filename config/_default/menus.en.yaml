@@ -1,0 +1,36 @@
+main:
+  - name: home
+    url: /
+    weight: 10
+
+  - name: resume
+    url: resume
+    weight: 100
+
+  - name: certificate
+    url: certificate
+    weight: 200
+
+  - name: project
+    url: project
+    weight: 300
+
+  - name: etc
+    identifier: etc
+    url: etc
+    weight: 400
+    hasChildren: true
+
+  - name: favorite
+    url: etc/favorite
+    parent: etc
+    weight: 420
+
+  - name: music
+    url: etc/music
+    parent: etc
+    weight: 440
+
+  - name: contact
+    url: contact
+    weight: 700

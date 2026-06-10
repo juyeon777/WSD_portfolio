@@ -16,7 +16,7 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: 이력서 다운로드
         url: uploads/resume.pdf
     design:
       banner:

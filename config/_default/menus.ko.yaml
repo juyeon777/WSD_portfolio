@@ -1,35 +1,36 @@
 main:
-  - name: home
+  - name: 홈
     url: /
     weight: 10
 
-  - name: resume
+  - name: 이력서
     url: resume
     weight: 100
 
-  - name: certificate
+  - name: 자격증
     url: certificate
     weight: 200
 
-  - name: project
+  - name: 프로젝트
     url: project
     weight: 300
 
-  - name: etc
+  - name: 기타
+    identifier: etc
     url: etc
     weight: 400
     hasChildren: true
 
-  - name: favorite
+  - name: 즐겨찾기
     url: etc/favorite
     parent: etc
     weight: 420
 
-  - name: music
+  - name: 음악
     url: etc/music
     parent: etc
     weight: 440
 
-  - name: contact
+  - name: 연락처
     url: contact
     weight: 700

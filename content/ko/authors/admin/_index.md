@@ -85,7 +85,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 기술 스택
     items:
       - name: Python
       - name: C
@@ -93,9 +93,9 @@ skills:
       - name: Linux
 
 languages:
-  - name: Korean
+  - name: 한국어
     percent: 100
-  - name: English
+  - name: 영어
     percent: 60
 
 
