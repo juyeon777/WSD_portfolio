@@ -208,6 +208,58 @@ html.dark .nav-dropdown-link.is-current { color: #a7cccc !important; }
 .nav-link.is-current::after,
 .nav-link.active::after { transform: scaleX(1); }
 html.dark .nav-link::after { background: #a7cccc; }
+
+/* ---- "성격 및 업무 스타일" section (trendy) ---- */
+.ws-quote, .ws-lead, .ws-label, .ws-grid, .ws-growth { max-width: 740px; margin-left: auto; margin-right: auto; }
+.ws-quote {
+  text-align: center;
+  padding: 2rem 1.6rem 1.7rem;
+  margin: .5rem auto 2rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f1f6f2 0%, #eaf1ec 100%);
+  border: 1px solid #e1ebe4;
+  position: relative; overflow: hidden;
+}
+html.dark .ws-quote { background: linear-gradient(135deg, rgba(48,72,69,.6) 0%, rgba(36,55,52,.6) 100%); border-color: rgba(110,163,163,.18); }
+.ws-quote::before {
+  content: "\201C"; position: absolute; top: .1rem; left: 1.1rem;
+  font-family: Georgia, 'Times New Roman', serif; font-size: 4.5rem; line-height: 1;
+  color: #2f4f4f; opacity: .1;
+}
+.ws-quote-main { font-size: 1.5rem; font-weight: 800; line-height: 1.45; letter-spacing: -.01em; color: #2f4f4f; margin: 0 0 .55rem; }
+html.dark .ws-quote-main { color: #d2e7e1; }
+.ws-quote-sub { font-size: .95rem; font-style: italic; color: #74857d; margin: 0; }
+html.dark .ws-quote-sub { color: #9bb4ac; }
+.ws-lead { font-size: 1.02rem; line-height: 1.9; color: #4d5a54; text-align: center; margin: 0 auto 2.4rem; }
+html.dark .ws-lead { color: #b6c6c0; }
+.ws-label { display: flex; align-items: center; gap: .55rem; font-size: 1.1rem; font-weight: 800; color: #2f4f4f; margin: 0 auto 1.1rem; }
+html.dark .ws-label { color: #a7cccc; }
+.ws-label::before { content: ""; width: 5px; height: 1.05em; border-radius: 3px; background: #2f4f4f; }
+html.dark .ws-label::before { background: #6ea3a3; }
+.ws-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: .75rem; margin-bottom: 2.4rem; }
+.ws-card {
+  background: #fff; border: 1px solid #ececec; border-radius: 14px;
+  padding: 1rem 1.1rem 1rem 2.6rem; position: relative;
+  font-size: .92rem; line-height: 1.55; color: #3c463f;
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.ws-card:hover { transform: translateY(-3px); box-shadow: 0 12px 24px rgba(47,79,79,.1); }
+html.dark .ws-card { background: rgb(40,58,55); border-color: rgba(110,163,163,.16); color: #c2d2cc; }
+.ws-card::before {
+  content: "\2713"; position: absolute; left: .95rem; top: .9rem;
+  width: 1.2rem; height: 1.2rem; border-radius: 50%;
+  background: #2f4f4f; color: #fff; font-size: .72rem; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+}
+html.dark .ws-card::before { background: #6ea3a3; color: #1b2a28; }
+.ws-card-note { display: block; margin-top: .25rem; font-size: .82em; color: #8c988f; }
+html.dark .ws-card-note { color: #93a79f; }
+.ws-growth { list-style: none; padding: 0; display: flex; flex-direction: column; gap: .65rem; }
+.ws-growth li { position: relative; padding-left: 1.5rem; font-size: .92rem; line-height: 1.65; color: #5c6862; }
+.ws-growth li::before { content: "\2192"; position: absolute; left: 0; top: 0; color: #2f4f4f; font-weight: 800; }
+html.dark .ws-growth li { color: #a6b6b0; }
+html.dark .ws-growth li::before { color: #6ea3a3; }
 </style>
 
 <script>
