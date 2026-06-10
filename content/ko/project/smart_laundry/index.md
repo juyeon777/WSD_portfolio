@@ -10,4 +10,9 @@ summary: "Raspberry Pi 5로 만든 스마트 빨래 날씨 감지 시스템"
 - Raspberry Pi 5 기반의 스마트 빨래 날씨 감지 시스템입니다. 날씨 데이터를 감지하여 빨래하기 좋은 시점을 알려줍니다.
 - **기술 스택:** Python, Raspberry Pi 5
 
+**담당 역할 — 개인 프로젝트**
+
+- 기획: 날씨 데이터로 빨래하기 좋은 시점을 알려주는 시스템 구상
+- 개발: Raspberry Pi 5에서 날씨 데이터 수집·판단 로직 구현 (Python)
+
 [GitHub 저장소](https://github.com/juyeon777/smart-laundry-system)

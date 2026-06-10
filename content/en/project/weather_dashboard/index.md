@@ -10,4 +10,9 @@ summary: "A real-time weather dashboard powered by OpenWeatherMap & AWS"
 - A dashboard application that collects and visualizes real-time weather data for specific cities (Seoul, Jeonju) using the OpenWeatherMap API. It displays temperature, humidity, and wind speed on real-time graphs and saves the collected data as CSV.
 - **Tech Stack:** Python, OpenWeatherMap API, AWS (S3, CloudWatch)
 
+**My Role — Personal Project**
+
+- Planning: Conceived a real-time weather monitoring dashboard
+- Development: Integrated the OpenWeatherMap API, visualized temp/humidity/wind and saved CSV (Python), connected AWS (S3 / CloudWatch)
+
 [GitHub Repository](https://github.com/juyeon777/weather-dashboard)

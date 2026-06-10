@@ -10,5 +10,11 @@ summary: "A Vue front-end demo site built with GPT (incl. renewal)"
 - A front-end demo site developed with GPT. The project was later renewed in a separate repository.
 - **Tech Stack:** Vue, JavaScript, CSS, HTML
 
+**My Role — Personal Project**
+
+- Planning: Designed a movie-browsing demo site (now playing / trending / by genre / favorites)
+- Development: Built the UI and features with Vue (using GPT)
+- Renewal: Restructured in a separate repository
+
 [GitHub Repository (YeonPlay)](https://github.com/juyeon777/YeonPlay)
 [GitHub Repository (Renewal)](https://github.com/juyeon777/renewal_yeonplay)
