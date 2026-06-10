@@ -2,11 +2,13 @@
 title: "넷플릭스 '오징어 게임' 모티브 줄다리기 게임"
 tags: ["project"]
 date: 2023-03-01
+weight: 3
 reading_time: false
 ---
 
 ![Litmus Project Image](project1.jpg)
 
 - **진행 기간:** 2023-03-01 ~ 2023-06-16
+- **기술 스택:** Java, Java Swing
 - 자바를 이용해 넷플릭스 '오징어 게임'에 나오는 줄다리기 게임을 재현했습니다.
 - 2023학년도 1학기 '객체지향프로그래밍' 과목에서 진행한 프로젝트입니다.

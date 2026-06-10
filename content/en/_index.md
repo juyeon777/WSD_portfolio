@@ -25,16 +25,4 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
-  - block: skills
-    content:
-      title: Skills
-      username: admin
-  # - block: awards
-  #   content:
-  #     title: Awards
-  #     username: admin
-  - block: languages
-    content:
-      title: Languages
-      username: admin
 ---
