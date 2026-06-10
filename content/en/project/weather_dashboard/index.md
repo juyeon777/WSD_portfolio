@@ -1,11 +1,11 @@
 ---
-title: "Weather Dashboard"
+title: "Real-time Weather Dashboard"
 tags: ["project"]
 date: 2024-12-20
 reading_time: false
 ---
 
 - **period:** 2024-12-20 ~ 2024-12-23
-- A dashboard project that collects and displays weather information. *(detailed description to be updated)*
-- **Tech Stack:** Python
+- A dashboard application that collects and visualizes real-time weather data for specific cities (Seoul, Jeonju) using the OpenWeatherMap API. It displays temperature, humidity, and wind speed on real-time graphs and saves the collected data as CSV.
+- **Tech Stack:** Python, OpenWeatherMap API, AWS (S3, CloudWatch)
 - [GitHub Repository](https://github.com/juyeon777/weather-dashboard)
