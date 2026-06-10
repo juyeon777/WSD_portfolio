@@ -13,4 +13,5 @@ summary: "A tug-of-war game from 'Squid Game', built in Java (OOP course, team p
 
 **My Role — My Part**
 
-- Participated in implementing the game in Java (object-oriented design) as a team project
+- UI design: hand-crafted the characters and other game graphics in **pixel art**
+- Implemented the button UI
