@@ -38,7 +38,9 @@ education:
     institution: Jeonbuk National University
     date_start: 2022-03-01
     date_end: 2027-02-28
-#     summary: |
+    summary: |
+       Currently enrolled at Jeonbuk National University. (Expected graduation: Feb 2027)
+#     old-summary: |
 #       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
 #     button:
 #       text: 'Read Thesis'

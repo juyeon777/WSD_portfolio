@@ -39,7 +39,7 @@ education:
     date_start: 2022-03-01
     date_end: 2027-02-28
     summary: |
-       현재 전북대학교 IT지능정보공학과에 재학 중입니다.
+       현재 전북대학교 IT지능정보공학과에 재학 중입니다. (2027.02 졸업예정)
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
