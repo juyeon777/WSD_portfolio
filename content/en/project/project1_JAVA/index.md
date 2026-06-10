@@ -6,8 +6,6 @@ reading_time: false
 summary: "A tug-of-war game from 'Squid Game', built in Java (OOP course)"
 ---
 
-![Litmus Project Image](project1.jpg)
-
 - **period:** 2023-03-01 ~ 2023-06-16
 - **Tech Stack:** Java, Java Swing
 - I used Java to recreate the tug-of-war game from Netflix's "Squid Game."

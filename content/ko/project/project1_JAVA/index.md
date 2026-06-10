@@ -6,8 +6,6 @@ reading_time: false
 summary: "Java로 구현한 '오징어 게임' 줄다리기 게임 (객체지향 과목)"
 ---
 
-![Litmus Project Image](project1.jpg)
-
 - **진행 기간:** 2023-03-01 ~ 2023-06-16
 - **기술 스택:** Java, Java Swing
 - 자바를 이용해 넷플릭스 '오징어 게임'에 나오는 줄다리기 게임을 재현했습니다.

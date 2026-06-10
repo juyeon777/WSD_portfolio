@@ -40,6 +40,13 @@ html.dark .container:has(> a.mb-5) > a {
   border-top-color: #6ea3a3;
 }
 .container:has(> a.mb-5) > a > div { display: block !important; height: 100%; }
+/* featured thumbnail → full width on top of the card */
+.container:has(> a.mb-5) > a img {
+  width: 100% !important;
+  max-width: none !important;
+  height: 11rem !important;
+  object-fit: cover !important;
+}
 .container:has(> a.mb-5) .p-8 { display: flex; flex-direction: column; height: 100%; padding: 1.4rem 1.5rem; }
 .container:has(> a.mb-5) .uppercase {
   color: #2f4f4f !important;
